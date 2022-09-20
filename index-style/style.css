@@ -23,4 +23,100 @@
 body {
     background-color: #000;
     font-family: var(--corpo);
+    color: #fff;
+    line-height: 1.8em;
+    overflow-x: hidden;
 }
+
+/* ---------- Starts Header ---------- */
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+header #bola1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: linear-gradient(140deg, var(--roxo), var(--rosa));
+    z-index: -1;
+    position: absolute;
+    top: 10rem;
+    left: -150px;
+}
+
+header #bola2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: linear-gradient(140deg, var(--laranja), var(--rosa));
+    z-index: -1;
+    position: absolute;
+    top: 5rem;
+    right: -150px;
+}
+
+header #bola3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, var(--verde), var(--roxo));
+    z-index: -1;
+    position: absolute;
+    top: 25rem;
+    right: 18rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 80px;
+}
+
+nav img {
+    width: 80px;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    padding: 3rem;
+}
+
+nav ul li {
+    padding: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav a:hover {
+    transition: .1s all;
+    color: var(--amarelo);
+    padding-bottom: .6rem;
+    border-bottom: 1px solid var(--amarelo);
+}
+
+header .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    margin: 3rem 0 0 5rem;
+}
+
+header .header-text h1 {
+    font: 900 3.5em var(--corpo);
+    margin-bottom: .8rem;
+}
+
+header .header-text p {
+    font: 300 1.2em var(--corpo);
+}
+/* ---------- Finishes Header ---------- */
