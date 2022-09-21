@@ -26,10 +26,12 @@ body {
     color: #fff;
     line-height: 1.8em;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* ---------- Starts Header ---------- */
 header {
+    height: 800px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -85,11 +87,11 @@ nav img {
 
 nav ul {
     display: flex;
-    padding: 3rem;
+    padding: 0 3rem;
 }
 
 nav ul li {
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 nav ul li a {
@@ -120,3 +122,109 @@ header .header-text p {
     font: 300 1.2em var(--corpo);
 }
 /* ---------- Finishes Header ---------- */
+
+/* ---------- Starts sec-projects ---------- */
+.sec-projects {
+    width: 100%;
+    min-height: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-projects .project-container {
+    width: 1300px;
+    height: 600px;
+    margin: 2rem auto;
+    display: flex;
+    border-radius: 30px;
+    transition: .2s all;
+}
+
+.sec-projects .project-container:hover {
+    transform: scale(0.98);
+}
+
+.sec-projects .project-container .project-text {
+    width: calc(1300px / 2);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.project-container .project-text h1 {
+    font: 900 3em var(--corpo);
+    margin-bottom: .8rem;
+}
+
+.project-container .project-text p {
+    font: 400 1em var(--corpo);
+    line-height: 2em;
+}
+
+.project-container button {
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: #614a48;
+    cursor: pointer;
+}
+
+.sec-projects .project-container img{
+    width: 50%;
+    border-radius: 0 30px 30px 0;
+}
+
+.sec-projects #project-one {
+    background-color: #e1a9a3;
+    color: #000;
+}
+
+.sec-projects #project-two {
+    background-image: linear-gradient(to right, #e84f1f, #849e56);
+}
+/* ---------- Finishes sec-projects ---------- */
+
+/* ---------- Starts sec-social-media ---------- */
+.sec-social-media {
+    max-width: 1200px;
+    min-height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-social-media ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-social-media ul li {
+    padding: 0 4rem;
+    font-size: 1.8em;
+}
+
+.sec-social-media ul li a {
+    color: #fff;
+    text-decoration: underline;
+}
+/* ---------- Finishes sec-social-media ---------- */
+
+/* ---------- Starts footer ---------- */
+footer {
+    text-align: center;
+}
+
+footer h1 {
+    color: #aaa;
+    font: 900 20vw var(--corpo);
+    letter-spacing: -10px;
+}
+/* ---------- Finishes footer ---------- */
