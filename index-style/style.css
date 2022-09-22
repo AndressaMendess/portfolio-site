@@ -214,17 +214,28 @@ header .header-text p {
 .sec-social-media ul li a {
     color: #fff;
     text-decoration: underline;
+    transition: .5s all;
+}
+
+.sec-social-media ul li a:hover {
+    color: #aaa;
 }
 /* ---------- Finishes sec-social-media ---------- */
 
 /* ---------- Starts footer ---------- */
 footer {
     text-align: center;
+    color: #aaa;
+    margin-bottom: 1rem;
 }
 
 footer h1 {
-    color: #aaa;
     font: 900 20vw var(--corpo);
     letter-spacing: -10px;
+    transition: .5s all;
+}
+
+footer h1:hover {
+    color: #fff;
 }
 /* ---------- Finishes footer ---------- */
