@@ -109,6 +109,10 @@ nav a:hover {
     border-bottom: 1px solid #aaa;
 }
 
+nav #btn-mobile {
+    display: none;
+}
+
 header .header-text {
     display: flex;
     flex-direction: column;
@@ -261,7 +265,6 @@ footer h1:hover {
 }
 
 /* ---------- Finishes sec-projects ---------- */
-
 }
 
 
@@ -285,8 +288,63 @@ header #bola3 {
     right: 0;
 }
 
-header nav ul {
-    display: none;
+header nav #menu {
+    display: block;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 80px;
+    background-color: #000;
+    transition: .6s all;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+header #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+}
+
+header #menu li {
+    text-align: right;
+    font-size: 2.5em;
+    padding: 1.5rem 0;
+}
+
+header #btn-mobile {
+    display: block;
+    padding: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header #btn-mobile #burguer-icon {
+    width: 30px;
+    height: 2px;
+    display: block;
+    border-top: 2px solid;
+    color: #fff;
+    transition: .3s all;
+}
+
+header #btn-mobile #burguer-icon::after {
+    width: 30px;
+    height: 2px;
+    display: block;
+    content: '';
+    background: currentColor;
+    margin-top: 10px;
+    position: relative;
+}
+
+header #nav.active #burguer-icon {
+    transform: rotate(45deg);
+}
+
+header #nav.active #burguer-icon::after {
+    transform: rotate(90deg);
+    top: -12px;
 }
 
 header .header-text {
