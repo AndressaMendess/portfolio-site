@@ -1,0 +1,245 @@
+@charset "UTF-8 ";
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --verde: #2bb500;
+    --laranja: #d61c00;
+    --roxo: #6336c5;
+    --amarelo: #d1d401;
+    --rosa: #bd0f4f;
+    --corpo: 'Be Vietnam Pro', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #000;
+    font-family: var(--corpo), sans-serif;
+    color: #fff;
+    line-height: 1.8em;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------- Starts header ---------- */
+header {
+    height: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 80px;
+}
+
+nav img {
+    width: 80px;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0 3rem;
+}
+
+nav ul li {
+    padding: 0 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav ul li #auto {
+    color: #aaa;
+    padding-bottom: .6rem;
+    border-bottom: 1px solid #aaa;
+}
+
+nav a:hover {
+    transition: .1s all;
+    color: #aaa;
+    padding-bottom: .6rem;
+    border-bottom: 1px solid #aaa;
+}
+
+nav #btn-mobile {
+    display: none;
+}
+/* ---------- Finishes header ---------- */
+
+/* ---------- Starts about-section ---------- */
+section {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.about-section {
+    width: 50%;
+    padding: 2rem;
+}
+
+.about-section h1 {
+    font: 900 3em var(--corpo);
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    text-indent: 2em;
+    margin-bottom: 1rem;
+}
+/* ---------- Finishes about-section ---------- */
+
+/* ---------- Starts image-section ---------- */
+.image-section {
+    width: auto;
+
+    padding: 2rem;
+}
+
+.image-section img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+/* ---------- Finishes image-section ---------- */
+
+/* ---------- Starts footer ---------- */
+footer {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 1rem;
+    padding: .2rem;
+}
+
+footer h1 {
+    font: 900 20vw var(--corpo);
+    letter-spacing: -10px;
+    transition: .5s all;
+}
+
+footer h1:hover {
+    color: #fff;
+}
+/* ---------- Finishes footer ---------- */
+
+
+/* ---------- Starts media queries ---------- */
+
+@media screen and (max-width: 768px) {
+    
+/* ---------- Starts header ---------- */
+header nav #menu {
+    display: block;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #000;
+    transition: .6s all;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+header #nav.active #menu {
+    width: 100%;
+    height: calc(100vh - 70px);
+    visibility: visible;
+    padding: 0 2rem;
+}
+
+header #menu li {
+    text-align: right;
+    font-size: 2.2em;
+    padding: 1.5rem 0;
+}
+
+header #btn-mobile {
+    display: block;
+    padding: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header #btn-mobile #burguer-icon {
+    width: 30px;
+    height: 2px;
+    display: block;
+    border-top: 2px solid;
+    color: #fff;
+    transition: .1s all;
+}
+
+header #btn-mobile #burguer-icon::after {
+    width: 30px;
+    height: 2px;
+    display: block;
+    content: '';
+    background: currentColor;
+    margin-top: 10px;
+    position: relative;
+}
+
+header #nav.active #burguer-icon {
+    transform: rotate(45deg);
+}
+
+header #nav.active #burguer-icon::after {
+    transform: rotate(90deg);
+    top: -12px;
+}
+/* ---------- Finishes header ---------- */
+
+/* ---------- Starts sections ---------- */
+main {
+    flex-direction: column;
+}
+
+.about-section, .image-section {
+    width: 100%;
+}
+
+.image-section img {
+    width: 80vw;
+}
+/* ---------- Finishes sections ---------- */
+
+/* ---------- Starts footer ---------- */
+footer {
+    margin: 0;
+}
+footer h1 {
+    letter-spacing: -5px;
+}
+/* ---------- Finishes footer ---------- */
+}

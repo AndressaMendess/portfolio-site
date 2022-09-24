@@ -305,6 +305,7 @@ header #nav.active #menu {
     width: 100%;
     height: calc(100vh - 70px);
     visibility: visible;
+    padding: 0 2rem;
 }
 
 header #menu li {
