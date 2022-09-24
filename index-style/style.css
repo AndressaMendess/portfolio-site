@@ -54,7 +54,8 @@ header #bola1 {
 header #bola2 {
     width: 300px;
     height: 300px;
-    background-image: linear-gradient(140deg, var(--laranja), var(--rosa));
+    transform: rotate(50deg);
+    background-image: linear-gradient(140deg, var(--rosa), var(--laranja));
     z-index: -1;
     position: absolute;
     top: 5rem;
@@ -64,7 +65,8 @@ header #bola2 {
 header #bola3 {
     width: 300px;
     height: 300px;
-    background-image: linear-gradient(45deg, var(--verde), var(--roxo));
+    transform: rotate(75deg);
+    background-image: linear-gradient(45deg, var(--laranja), var(--verde));
     z-index: -1;
     position: absolute;
     top: 25rem;
@@ -72,13 +74,14 @@ header #bola3 {
 }
 
 nav {
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
     align-items: center;
     padding: 1rem;
-    height: 80px;
+    background-color: #000;
 }
 
 nav img {
@@ -124,7 +127,7 @@ header .header-text h1 {
 }
 
 header .header-text p {
-    font: 300 1.2em var(--corpo);
+    font: 400 2em var(--corpo);
 }
 /* ---------- Finishes Header ---------- */
 
