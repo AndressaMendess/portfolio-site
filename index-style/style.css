@@ -44,7 +44,6 @@ header {
 header #bola1 {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
     background-image: linear-gradient(140deg, var(--roxo), var(--rosa));
     z-index: -1;
     position: absolute;
@@ -55,7 +54,6 @@ header #bola1 {
 header #bola2 {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
     background-image: linear-gradient(140deg, var(--laranja), var(--rosa));
     z-index: -1;
     position: absolute;
@@ -66,7 +64,6 @@ header #bola2 {
 header #bola3 {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
     background-image: linear-gradient(45deg, var(--verde), var(--roxo));
     z-index: -1;
     position: absolute;
