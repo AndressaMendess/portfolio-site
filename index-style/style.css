@@ -148,7 +148,7 @@ header .header-text p {
     margin: 2rem auto;
     display: flex;
     justify-content: space-between;
-    border-radius: 30px;
+    border-radius: 30px 0;
     transition: .2s all;
 }
 
@@ -178,7 +178,7 @@ header .header-text p {
 
 .sec-projects .project-container img{
     width: 50%;
-    border-radius: 0 30px 30px 0;
+    border-radius: 30px 0;
 }
 
 .sec-projects #project-one {
@@ -294,6 +294,7 @@ header nav #menu {
     height: 0;
     position: absolute;
     top: 80px;
+    left: 0;
     background-color: #000;
     transition: .6s all;
     visibility: hidden;
@@ -301,13 +302,14 @@ header nav #menu {
 }
 
 header #nav.active #menu {
+    width: 100%;
     height: calc(100vh - 70px);
     visibility: visible;
 }
 
 header #menu li {
     text-align: right;
-    font-size: 2.5em;
+    font-size: 2.2em;
     padding: 1.5rem 0;
 }
 
@@ -325,7 +327,7 @@ header #btn-mobile #burguer-icon {
     display: block;
     border-top: 2px solid;
     color: #fff;
-    transition: .3s all;
+    transition: .1s all;
 }
 
 header #btn-mobile #burguer-icon::after {
@@ -381,7 +383,7 @@ header .header-text p {
 
 .sec-projects .project-container img {
     width: 100%;
-    border-radius: 30px 30px 0 0;
+    border-radius: 30px 0;
 }
 /* ---------- Finishes sec-projects ---------- */
 
