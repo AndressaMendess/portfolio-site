@@ -44,7 +44,8 @@ header {
 header #bola1 {
     width: 300px;
     height: 300px;
-    background-image: linear-gradient(140deg, var(--roxo), var(--rosa));
+    border: solid 2px var(--laranja);
+    /*background-image: linear-gradient(140deg, var(--roxo), var(--rosa));*/
     z-index: -1;
     position: absolute;
     top: 10rem;
@@ -55,7 +56,8 @@ header #bola2 {
     width: 300px;
     height: 300px;
     transform: rotate(50deg);
-    background-image: linear-gradient(140deg, var(--rosa), var(--laranja));
+    border: solid 2px var(--rosa);
+    /*background-image: linear-gradient(140deg, var(--rosa), var(--laranja));*/
     z-index: -1;
     position: absolute;
     top: 5rem;
@@ -66,7 +68,8 @@ header #bola3 {
     width: 300px;
     height: 300px;
     transform: rotate(75deg);
-    background-image: linear-gradient(45deg, var(--laranja), var(--verde));
+    border: solid 2px var(--verde);
+    /*background-image: linear-gradient(45deg, var(--laranja), var(--verde));*/
     z-index: -1;
     position: absolute;
     top: 25rem;
@@ -85,13 +88,12 @@ nav {
 }
 
 nav img {
-    width: 80px;
-    height: 80px;
+    width: 95px;
+    padding-left: 2rem;
 }
 
 nav ul {
     display: flex;
-    padding: 0 3rem;
 }
 
 nav ul li {
@@ -352,11 +354,11 @@ header #nav.active #burguer-icon::after {
 
 header .header-text {
     margin: 0;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 header .header-text h1 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 header .header-text p {
