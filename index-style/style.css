@@ -188,9 +188,9 @@ header .header-text p {
     color: #000;
 }
 
-.sec-projects a #project-two {
-    background-color: #420009;
-    color: #fff;
+.sec-projects #project-two {
+    background-color: #aaa;
+    color: #000;
 }
 
 /* ---------- Finishes sec-projects ---------- */

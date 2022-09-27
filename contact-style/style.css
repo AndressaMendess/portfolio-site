@@ -53,8 +53,8 @@ nav {
 }
 
 nav img {
-    width: 80px;
-    height: 80px;
+    width: 95px;
+    padding-left: 2rem;
 }
 
 nav ul {
@@ -92,7 +92,7 @@ nav #btn-mobile {
 .square1 {
     width: 300px;
     height: 300px;
-    background-color: var(--roxo);
+    border: solid 2px var(--roxo);
     z-index: -2;
     position: absolute;
     top: 80px;
