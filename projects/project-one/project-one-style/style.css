@@ -25,7 +25,7 @@ html {
 }
 
 body {
-    background-color: #fff;
+    background-color: #c2c2c2;
     font-family: var(--corpo);
     color: #000;
     line-height: 1.8em;
@@ -33,6 +33,12 @@ body {
     scroll-behavior: smooth;
 }
 
+main {
+    width: 100vw;
+    height: auto;
+}
+
+/* ---------- Starts header ---------- */
 nav {
     height: 80px;
     display: flex;
@@ -70,6 +76,79 @@ nav a:hover {
 nav #btn-mobile {
     display: none;
 }
+/* ---------- Finishes header ---------- */
+
+/* ---------- Starts sections ---------- */
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-description {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.project-description #date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-description h1 {
+    font: 900 2.5em var(--corpo);
+    margin-bottom: 1rem;
+}
+
+.project-description p {
+    font: 300 1.3em var(--corpo);
+    line-height: 1.8em;
+    margin-bottom: 2rem;
+}
+
+.project-photo {
+    width: 100vw;
+    text-align: center;
+}
+
+.project-photo img {
+    width: 50%;
+    border-radius: 20px;
+    border: solid 1px #fff;
+}
+
+.project-description .info {
+    display: flex;
+}
+
+.project-description .info .info-title,
+.project-description .info .info-desc {
+    width: 50%;
+}
+
+.info .info-title ul li {
+    padding: 2.4rem 0;
+    font-weight: 800;
+}
+
+.info .info-desc ul li {
+    padding: 1rem 0;
+    border-bottom: solid 1px #000;
+}
+
+.info .info-desc ul li a {
+    color: #000;
+    font-weight: 700;
+}
+
+.info .info-desc ul li a:hover {
+    text-decoration: underline;
+}
+/* ---------- Finishes sections ---------- */
 
 
 
@@ -77,6 +156,8 @@ nav #btn-mobile {
 
 
 
+
+/* ---------- Starts media queries ---------- */
 @media screen and (max-width: 768px) {
     header nav #menu {
         display: block;
@@ -85,7 +166,7 @@ nav #btn-mobile {
         position: absolute;
         top: 80px;
         left: 0;
-        background-color: #fff;
+        background-color: #c2c2c2;
         transition: .6s all;
         visibility: hidden;
         overflow-y: hidden;
