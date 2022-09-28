@@ -53,6 +53,7 @@ nav {
     align-items: center;
     padding: 1rem;
     height: 80px;
+    border-bottom: 1px solid #ffffff6e;
 }
 
 nav img {
@@ -62,7 +63,6 @@ nav img {
 
 nav ul {
     display: flex;
-    padding: 0 3rem;
 }
 
 nav ul li {
@@ -94,7 +94,7 @@ nav #btn-mobile {
 /* ---------- Starts about-section ---------- */
 section {
     max-width: 1200px;
-    height: auto;
+    min-height: 680px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -125,10 +125,10 @@ section {
 }
 
 .image-section img {
-    width: 500px;
-    height: 500px;
+    width: 430px;
+    height: 430px;
     object-fit: cover;
-    border-radius: 50px 0;
+    border-radius: 10px;
 }
 /* ---------- Finishes image-section ---------- */
 

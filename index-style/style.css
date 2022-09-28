@@ -22,6 +22,7 @@
 
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -30,7 +31,6 @@ body {
     color: #fff;
     line-height: 1.8em;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
 /* ---------- Starts Header ---------- */
@@ -41,10 +41,10 @@ header {
     position: relative;
 }
 
-header #bola1 {
+header #square1 {
     width: 300px;
     height: 300px;
-    border: solid 2px var(--laranja);
+    border: solid 5px var(--laranja);
     /*background-image: linear-gradient(140deg, var(--roxo), var(--rosa));*/
     z-index: -1;
     position: absolute;
@@ -52,7 +52,7 @@ header #bola1 {
     left: -150px;
 }
 
-header #bola2 {
+header #square2 {
     width: 300px;
     height: 300px;
     transform: rotate(50deg);
@@ -64,11 +64,11 @@ header #bola2 {
     right: -150px;
 }
 
-header #bola3 {
+header #square3 {
     width: 300px;
     height: 300px;
     transform: rotate(75deg);
-    border: solid 2px var(--verde);
+    border: solid 3px var(--verde);
     /*background-image: linear-gradient(45deg, var(--laranja), var(--verde));*/
     z-index: -1;
     position: absolute;
@@ -85,6 +85,7 @@ nav {
     align-items: center;
     padding: 1rem;
     background-color: #000;
+    border-bottom: 1px solid #ffffff6e;
 }
 
 nav img {
@@ -104,7 +105,7 @@ nav ul li a {
     color: #fff;
 }
 
-nav a:hover {
+nav ul li a:hover {
     transition: .1s all;
     color: #aaa;
     padding-bottom: .6rem;
@@ -150,7 +151,7 @@ header .header-text p {
     margin: 2rem auto;
     display: flex;
     justify-content: space-between;
-    border-radius: 30px 0;
+    border-radius: 10px 0;
     transition: .2s all;
 }
 
@@ -180,7 +181,7 @@ header .header-text p {
 
 .sec-projects .project-container img{
     width: 50%;
-    border-radius: 30px 0;
+    border-radius: 10px 0;
 }
 
 .sec-projects #project-one {
@@ -273,7 +274,7 @@ footer h1:hover {
 @media screen and (max-width: 768px) {
 
 /* ---------- Starts header ---------- */
-header #bola1, header #bola2, header #bola3 {
+header #square1, header #square2, header #square3 {
     width: 200px;
     height: 200px;
 }
@@ -282,11 +283,11 @@ header #bola1 {
     left: calc(-200px / 2);
 }
 
-header #bola2 {
+header #square2 {
     right: calc(-200px / 2);
 }
 
-header #bola3 {
+header #square3 {
     right: 0;
 }
 
@@ -386,7 +387,6 @@ header .header-text p {
 
 .sec-projects .project-container img {
     width: 100%;
-    border-radius: 30px 0;
 }
 /* ---------- Finishes sec-projects ---------- */
 

@@ -43,13 +43,14 @@ header {
 }
 
 nav {
+    height: 80px;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    padding: 1rem;
-    height: 80px;
+    border-bottom: 1px solid #ffffff6e;
 }
 
 nav img {
@@ -59,7 +60,6 @@ nav img {
 
 nav ul {
     display: flex;
-    padding: 0 3rem;
 }
 
 nav ul li {
@@ -97,6 +97,17 @@ nav #btn-mobile {
     position: absolute;
     top: 80px;
     transform: rotate(35deg);
+}
+
+.square2 {
+    width: 300px;
+    height: 300px;
+    border: solid 2px var(--amarelo);
+    z-index: -2;
+    position: absolute;
+    top: 20rem;
+    right: -5rem;
+    transform: rotate(80deg);
 }
 
 .social-medias-section {

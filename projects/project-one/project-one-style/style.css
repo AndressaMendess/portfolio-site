@@ -47,6 +47,7 @@ nav {
     align-content: center;
     align-items: center;
     padding: 1rem;
+    border-bottom: 1px solid #00000091;
 }
 
 nav img {
@@ -76,18 +77,15 @@ nav a:hover {
 nav #btn-mobile {
     display: none;
 }
+
 /* ---------- Finishes header ---------- */
 
 /* ---------- Starts sections ---------- */
-section {
-    display: flex;
-    flex-direction: column;
-}
 
 .project-description {
     max-width: 1200px;
     height: auto;
-    margin: auto;
+    margin: 2rem auto;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -97,6 +95,7 @@ section {
 .project-description #date {
     display: flex;
     justify-content: space-between;
+    padding: .5rem;
 }
 
 .project-description h1 {
@@ -111,14 +110,17 @@ section {
 }
 
 .project-photo {
-    width: 100vw;
+    max-width: 1200px;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1.5rem;
     text-align: center;
 }
 
 .project-photo img {
-    width: 50%;
-    border-radius: 20px;
-    border: solid 1px #fff;
+    width: 90%;
+    border-radius: 15px;
+    border: 2px solid #fff;
 }
 
 .project-description .info {
@@ -128,6 +130,7 @@ section {
 .project-description .info .info-title,
 .project-description .info .info-desc {
     width: 50%;
+    padding: 1rem;
 }
 
 .info .info-title ul li {
@@ -148,13 +151,24 @@ section {
 .info .info-desc ul li a:hover {
     text-decoration: underline;
 }
+
 /* ---------- Finishes sections ---------- */
 
+/* ---------- Starts footer ---------- */
+footer {
+    text-align: center;
+    color: #000;
+    margin-bottom: 1rem;
+    padding: .2rem;
+}
 
+footer h1 {
+    font: 900 20vw var(--corpo);
+    letter-spacing: -10px;
+    transition: .5s all;
+}
 
-
-
-
+/* ---------- Finishes footer ---------- */
 
 
 /* ---------- Starts media queries ---------- */
@@ -171,20 +185,20 @@ section {
         visibility: hidden;
         overflow-y: hidden;
     }
-    
+
     header #nav.active #menu {
         width: 100%;
         height: calc(100vh - 70px);
         visibility: visible;
         padding: 0 2rem;
     }
-    
+
     header #menu li {
         text-align: right;
         font-size: 2.2em;
         padding: 1.5rem 0;
     }
-    
+
     header #btn-mobile {
         display: block;
         padding: 1rem;
@@ -192,7 +206,7 @@ section {
         border: none;
         cursor: pointer;
     }
-    
+
     header #btn-mobile #burguer-icon {
         width: 30px;
         height: 2px;
@@ -201,7 +215,7 @@ section {
         color: #000;
         transition: .1s all;
     }
-    
+
     header #btn-mobile #burguer-icon::after {
         width: 30px;
         height: 2px;
@@ -211,13 +225,24 @@ section {
         margin-top: 10px;
         position: relative;
     }
-    
+
     header #nav.active #burguer-icon {
         transform: rotate(45deg);
     }
-    
+
     header #nav.active #burguer-icon::after {
         transform: rotate(90deg);
         top: -12px;
     }
+
+    /* ---------- Starts footer ---------- */
+    footer {
+        margin: 0;
+    }
+
+    footer h1 {
+        letter-spacing: -5px;
+    }
+
+    /* ---------- Finishes footer ---------- */
 }
