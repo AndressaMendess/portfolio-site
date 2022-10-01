@@ -1,0 +1,128 @@
+FIRST OPTION SECTION PROJECTS HTML
+
+<section class="sec-projects" id="projects">
+    <a href="projects/project-one/projectone.html">
+        <div class="project-container" id="project-one">
+            <div class="project-text">
+                <h1>Polyphia Website</h1>
+                <p>Uma Landing Page sobre banda Instrumental de Rock Progressivo Polyphia.</p>
+            </div>
+                <img src="media/playing god cort.png" alt="Projeto Polyphia">
+        </div>
+    </a>
+        <div class="project-container" id="project-two">
+            <div class="project-text">
+                <h1>FloriFlower</h1>
+                <p>E-commerce para uma floricultura de alto padrão. <br>
+                Em desenvolvimento...
+                </p>
+            </div>
+        </div>
+</section>
+
+FIRST OPTION SECTION PROJECTS CSS
+
+/* ---------- Starts sec-projects ---------- */
+.sec-projects {
+    width: 100%;
+    min-height: 900px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-projects .project-container {
+    width: 1200px;
+    height: 600px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 0;
+    transition: .2s all;
+}
+
+.sec-projects .project-container:hover {
+    transform: scale(0.98);
+}
+
+.sec-projects .project-container .project-text {
+    width: calc(1300px / 2);
+    height: 600px;
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.project-container .project-text h1 {
+    font: 900 3em var(--corpo);
+    margin-bottom: .8rem;
+}
+
+.project-container .project-text p {
+    font: 400 1em var(--corpo);
+    line-height: 2em;
+}
+
+.sec-projects .project-container img{
+    width: 50%;
+    border-radius: 10px 0;
+}
+
+.sec-projects #project-one {
+    background-color: #e1a9a3;
+    color: #000;
+}
+
+.sec-projects #project-two {
+    background-color: #aaa;
+    color: #000;
+}
+/* ---------- Finishes sec-projects ---------- */
+
+@media screen and (max-width: 1200px) {
+    
+/* ---------- Starts sec-projects ---------- */
+.sec-projects .project-container {
+    width: 100%;
+    height: auto;
+    }
+    
+.sec-projects .project-container .project-text {
+    height: auto;
+    margin: 0;
+}
+
+.project-container .project-text h1 {
+    font-size: 2.5em;
+}
+/* ---------- Finishes sec-projects ---------- */
+
+
+@media screen and (max-width: 768px) {
+
+/* ---------- Starts sec-projects ---------- */
+.sec-projects .project-container {
+    flex-direction: column-reverse;
+    height: auto;
+}
+
+.sec-projects .project-container .project-text {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 1.5rem;
+    }
+    
+.sec-projects .project-container .project-text h1 {
+    font-size: 2em;
+}
+
+.sec-projects .project-container img {
+    width: 100%;
+}
+/* ---------- Finishes sec-projects ---------- */
+}

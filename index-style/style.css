@@ -85,7 +85,7 @@ nav {
     align-items: center;
     padding: 1rem;
     background-color: #000;
-    border-bottom: 1px solid #ffffff6e;
+    border-bottom: 1px solid #fff;
 }
 
 nav img {
@@ -117,160 +117,126 @@ nav #btn-mobile {
 }
 
 header .header-text {
+    height: 500px;
+    padding: .5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 500px;
-    margin: 3rem 0 0 3rem;
 }
 
 header .header-text h1 {
-    font: 900 3.5em var(--corpo);
-    margin-bottom: .8rem;
+    font: 900 20vw var(--corpo);
+    letter-spacing: -10px;
+    text-align: center;
 }
 
-header .header-text p {
-    font: 400 2em var(--corpo);
+header .header-text h3 {
+    font: 600 1.5em var(--corpo);
+    line-height: 1.8em;
+    margin-left: 3rem;
 }
 /* ---------- Finishes Header ---------- */
 
-/* ---------- Starts sec-projects ---------- */
-.sec-projects {
+/* ---------- Starts projects ---------- */
+.projects-sec {
     width: 100%;
-    min-height: 900px;
-    margin: auto;
+    height: auto;
+    margin: 8rem auto;
     padding: 1rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #fff;
 }
 
-.sec-projects .project-container {
-    width: 1200px;
-    height: 600px;
-    margin: 2rem auto;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px 0;
-    transition: .2s all;
-}
-
-.sec-projects .project-container:hover {
-    transform: scale(0.98);
-}
-
-.sec-projects .project-container .project-text {
-    width: calc(1300px / 2);
-    height: 600px;
-    display: flex;
-    padding: 1.5rem;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 5rem;
-}
-
-.project-container .project-text h1 {
-    font: 900 3em var(--corpo);
-    margin-bottom: .8rem;
-}
-
-.project-container .project-text p {
-    font: 400 1em var(--corpo);
-    line-height: 2em;
-}
-
-.sec-projects .project-container img{
-    width: 50%;
-    border-radius: 10px 0;
-}
-
-.sec-projects #project-one {
-    background-color: #e1a9a3;
-    color: #000;
-}
-
-.sec-projects #project-two {
-    background-color: #aaa;
-    color: #000;
-}
-
-/* ---------- Finishes sec-projects ---------- */
-
-/* ---------- Starts sec-social-media ---------- */
-.sec-social-media {
-    max-width: 1200px;
-    min-height: 500px;
+.project {
+    height: auto;
     margin: auto;
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-sec a {
+    max-height: 400px;
+    color: #fff;
+    font: 400 1.5em var(--corpo);
+    margin: 2.5rem auto;
+}
+
+.project .projects-text {
+    margin-bottom: 1.5rem;
+}
+    
+.projects-container {
+    width: 550px;
+    height: 400px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    background-color: #757575;
+    color: #000;
+    border-radius: 10px;
+    transition: .2s all;
 }
 
-.sec-social-media ul {
+.projects-container:hover {
+    transform: scale(0.98);
+}
+
+.projects-container img {
+    width: 65%;
+    display: block;
+    box-shadow: 0 0 10px #0000003a;
+}
+/* ---------- Finishes projects ---------- */
+
+/* ---------- Starts footer ---------- */
+footer {
+    height: 350px;
+    padding: 1rem;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
 }
 
-.sec-social-media ul li {
-    padding: 0 4rem;
-    font-size: 1.8em;
+footer p {
+    font: 400 1.3em var(--corpo);
+    color: #fff;
+    margin-bottom: .5rem;
 }
 
-.sec-social-media ul li a {
+
+footer a {
+    font: 200 1.3em var(--corpo);
+    color: #fff;
+}
+
+footer ul li {
+    padding: 1rem;
+}
+
+footer ul li a {
     color: #fff;
     text-decoration: underline;
     transition: .5s all;
 }
 
-.sec-social-media ul li a:hover {
+footer a:hover {
     color: #aaa;
-}
-/* ---------- Finishes sec-social-media ---------- */
-
-/* ---------- Starts footer ---------- */
-footer {
-    text-align: center;
-    color: #aaa;
-    margin-bottom: 1rem;
-    padding: .2rem;
-}
-
-footer h1 {
-    font: 900 20vw var(--corpo);
-    letter-spacing: -10px;
-    transition: .5s all;
-}
-
-footer h1:hover {
-    color: #fff;
 }
 /* ---------- Finishes footer ---------- */
 
 
-
 /* ---------- Starts media queries ---------- */
 @media screen and (max-width: 1200px) {
-    
-/* ---------- Starts sec-projects ---------- */
-.sec-projects .project-container {
-    width: 100%;
-    height: auto;
-    }
-    
-.sec-projects .project-container .project-text {
-    height: auto;
-    margin: 0;
+.projects-sec .projects-container {
+    width: 460px;
+}
 }
 
-.project-container .project-text h1 {
-    font-size: 2.5em;
-}
-
-/* ---------- Finishes sec-projects ---------- */
-}
-
-
+ 
 @media screen and (max-width: 768px) {
 
 /* ---------- Starts header ---------- */
@@ -328,6 +294,7 @@ header #btn-mobile {
 header #btn-mobile #burguer-icon {
     width: 30px;
     height: 2px;
+    margin-bottom: 9px;
     display: block;
     border-top: 2px solid;
     color: #fff;
@@ -353,60 +320,40 @@ header #nav.active #burguer-icon::after {
     top: -12px;
 }
 
-header .header-text {
-    margin: 0;
-    padding: 2rem;
-}
-
 header .header-text h1 {
-    font-size: 2.5em;
+    letter-spacing: -5px;
 }
 
-header .header-text p {
-    font-size: 1em;
-    line-height: 2em;
+header .header-text h3 {
+    margin-left: 1.5rem;
 }
 /* ---------- Finishes header ---------- */
 
-/* ---------- Starts sec-projects ---------- */
-.sec-projects .project-container {
-    flex-direction: column-reverse;
-    height: auto;
-}
-
-.sec-projects .project-container .project-text {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 1.5rem;
-    }
-    
-.sec-projects .project-container .project-text h1 {
-    font-size: 2em;
-}
-
-.sec-projects .project-container img {
-    width: 100%;
-}
-/* ---------- Finishes sec-projects ---------- */
-
-/* ---------- Starts sec-social-media ---------- */
-.sec-social-media ul {
+/* ---------- Starts footer ---------- */
+footer {
     flex-direction: column;
     text-align: center;
 }
 
-.sec-social-media ul li {
-    padding: 3rem;
-}
-/* ---------- Finishes sec-social-media ---------- */
-
-/* ---------- Starts footer ---------- */
-footer {
-    margin: 0;
-}
-footer h1 {
-    letter-spacing: -5px;
+footer p, footer a {
+    font-size: 1em;
 }
 /* ---------- Finishes footer ---------- */
 }
+
+
+@media screen and (max-width: 480px) {
+.projects-sec .projects-container {
+    width: 100%;
+    height: 350px;
+}
+
+.projects-sec .projects-container img {
+    width: 80%;
+}
+
+.projects-sec a .project #project-two {
+    width: 350px;
+}
+}
+
