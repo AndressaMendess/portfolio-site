@@ -235,7 +235,7 @@ footer a {
 }
 
 footer ul li {
-    padding: 1rem;
+    padding: .5rem;
 }
 
 footer ul li a {
@@ -346,7 +346,8 @@ header .header-text h1 {
 }
 
 header .header-text h3 {
-    margin-left: 1.5rem;
+    font-size: 1.2em;
+    margin-left: 1.3rem;
 }
 /* ---------- Finishes header ---------- */
 
