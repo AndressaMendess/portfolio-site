@@ -132,6 +132,16 @@ section {
     text-indent: 2em;
     margin-bottom: 1rem;
 }
+
+.about-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 .2rem;
+}
+
+.about-section ul li {
+    padding: 1rem 2rem;
+}
 /* ---------- Finishes about-section ---------- */
 
 /* ---------- Starts image-section ---------- */

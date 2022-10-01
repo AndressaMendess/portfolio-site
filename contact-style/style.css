@@ -131,7 +131,7 @@ nav #btn-mobile {
 .contacts {
     max-width: 1200px;
     min-height: 500px;
-    margin: 8rem auto;
+    margin: 5rem auto;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -156,9 +156,11 @@ nav #btn-mobile {
 .contacts div a {
     color: #fff;
     font: 200 1.4em var(--corpo);
+    transition: .2s all;
 }
 
 .contacts div a:hover {
+    padding-bottom: .2rem;
     border-bottom: 1px solid #fff;
 }
 /* ---------- Finishes section ---------- */
