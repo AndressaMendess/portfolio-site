@@ -193,7 +193,6 @@ header .header-text h3 {
     justify-content: center;
     text-align: center;
     background-color: #757575;
-    color: #000;
     border-radius: 10px;
     transition: .2s all;
 }
@@ -207,12 +206,17 @@ header .header-text h3 {
     display: block;
     box-shadow: 0 0 10px #0000003a;
 }
+
+.projects-sec #project-two {
+    background: none;
+    width: auto;
+}
 /* ---------- Finishes projects ---------- */
 
 /* ---------- Starts footer ---------- */
 footer {
     height: 350px;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -350,6 +354,7 @@ header .header-text h3 {
 footer {
     flex-direction: column;
     text-align: center;
+    padding: 1rem;
 }
 
 footer p, footer a {
@@ -369,8 +374,5 @@ footer p, footer a {
     width: 80%;
 }
 
-.projects-sec a .project #project-two {
-    width: 350px;
-}
 }
 
