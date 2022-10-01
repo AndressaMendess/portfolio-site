@@ -18,6 +18,20 @@
     list-style-type: none;
     list-style-position: inside;
     text-decoration: none;
+    scrollbar-width: 10px;
+    scrollbar-color: #aaa;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #aaa;
 }
 
 html {
