@@ -32,6 +32,7 @@
 
 *::-webkit-scrollbar-thumb {
     background-color: #aaa;
+    border-right: 2px solid #000;
 }
 
 html {
@@ -88,16 +89,12 @@ nav ul li a {
 }
 
 nav ul li #auto {
-    color: #aaa;
-    padding-bottom: .6rem;
-    border-bottom: 1px solid #aaa;
+    color: var(--roxo);
 }
 
 nav a:hover {
     transition: .1s all;
-    color: #aaa;
-    padding-bottom: .6rem;
-    border-bottom: 1px solid #aaa;
+    color: var(--roxo);
 }
 
 nav #btn-mobile {
@@ -241,6 +238,11 @@ main {
 
 .about-section, .image-section {
     width: 100%;
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
 }
 
 .image-section img {
