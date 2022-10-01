@@ -40,6 +40,11 @@ html {
     scroll-behavior: smooth;
 }
 
+::selection {
+    color: #000;
+    background-color: var(--amarelo);
+}
+
 body {
     background-color: #000;
     font-family: var(--corpo);
