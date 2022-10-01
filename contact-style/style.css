@@ -156,6 +156,37 @@ nav #btn-mobile {
 }
 /* ---------- Finishes section ---------- */
 
+.contacts {
+    max-width: 1200px;
+    height: auto;
+    margin: 8rem auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts div p {
+    font: 600 1.5em var(--corpo);
+}
+
+.contacts div ul {
+    margin: 1.5rem 0;
+}
+
+.contacts div ul li {
+    padding: .8rem 0;
+}
+
+.contacts div ul li a {
+    color: #fff;
+    font: 200 1.4em var(--corpo);
+}
+
+.contacts div ul li a:hover {
+    transition: .2s all;
+    border-bottom: 1px solid #fff;
+}
+
 /* ---------- Starts footer ---------- */
 footer {
     text-align: center;
@@ -244,6 +275,14 @@ header #nav.active #burguer-icon::after {
     top: -12px;
 }
 /* ---------- Finishes header ---------- */
+
+.contacts {
+    flex-direction: column;
+}
+
+.contacts div {
+    margin: 1rem 0;
+}
 
 /* ---------- Starts footer ---------- */
 footer {
