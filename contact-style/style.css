@@ -35,6 +35,11 @@
     border-right: 2px solid #000;
 }
 
+::selection {
+    color: #000;
+    background-color: var(--amarelo);
+}
+
 html {
     overflow-x: hidden;
 }
@@ -148,13 +153,12 @@ nav #btn-mobile {
     padding: .8rem 0;
 }
 
-.contacts div ul li a {
+.contacts div a {
     color: #fff;
     font: 200 1.4em var(--corpo);
 }
 
-.contacts div ul li a:hover {
-    transition: .2s all;
+.contacts div a:hover {
     border-bottom: 1px solid #fff;
 }
 /* ---------- Finishes section ---------- */

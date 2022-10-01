@@ -32,6 +32,12 @@
 
 *::-webkit-scrollbar-thumb {
     background-color: #000;
+    border-right: 2px solid #c2c2c2;
+}
+
+::selection {
+    color: #000;
+    background-color: var(--amarelo);
 }
 
 html {
@@ -84,8 +90,7 @@ nav ul li a {
 
 nav a:hover {
     transition: .1s all;
-    padding-bottom: .6rem;
-    border-bottom: 1px solid #000;
+    color: var(--roxo);
 }
 
 nav #btn-mobile {
