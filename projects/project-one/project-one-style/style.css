@@ -96,11 +96,9 @@ nav a:hover {
 nav #btn-mobile {
     display: none;
 }
-
 /* ---------- Finishes header ---------- */
 
 /* ---------- Starts sections ---------- */
-
 .project-description {
     max-width: 1200px;
     height: auto;
@@ -115,11 +113,12 @@ nav #btn-mobile {
     display: flex;
     justify-content: space-between;
     padding: .5rem;
+    font-size: .8em;
 }
 
 .project-description h1 {
     font: 900 2.5em var(--corpo);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .project-description p {
@@ -138,8 +137,7 @@ nav #btn-mobile {
 
 .project-photo img {
     width: 90%;
-    border-radius: 15px;
-    border: 2px solid #fff;
+    border-radius: 5px;
 }
 
 .project-description .info {
@@ -170,7 +168,6 @@ nav #btn-mobile {
 .info .info-desc ul li a:hover {
     text-decoration: underline;
 }
-
 /* ---------- Finishes sections ---------- */
 
 /* ---------- Starts footer ---------- */
@@ -186,82 +183,93 @@ footer h1 {
     letter-spacing: -10px;
     transition: .5s all;
 }
-
 /* ---------- Finishes footer ---------- */
 
 
 /* ---------- Starts media queries ---------- */
+
 @media screen and (max-width: 768px) {
-    header nav #menu {
-        display: block;
-        width: 100%;
-        height: 0;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        background-color: #c2c2c2;
-        transition: .6s all;
-        visibility: hidden;
-        overflow-y: hidden;
-    }
+/* ---------- Starts header ---------- */
+header nav #menu {
+    display: block;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #c2c2c2;
+    transition: .6s all;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+    
+nav img {
+    width: 65px;
+    padding-left: .5rem;
+}
 
-    header #nav.active #menu {
-        width: 100%;
-        height: calc(100vh - 70px);
-        visibility: visible;
-        padding: 0 2rem;
-    }
+header #nav.active #menu {
+    width: 100%;
+    height: calc(100vh - 70px);
+    visibility: visible;
+    padding: 0 2rem;
+}
 
-    header #menu li {
-        text-align: right;
-        font-size: 2.2em;
-        padding: 1.5rem 0;
-    }
+nav #menu li {
+    text-align: right;
+    font-size: 2.2em;
+    padding: 1.5rem 0;
+}
 
-    header #btn-mobile {
-        display: block;
-        padding: 1rem;
-        background: none;
-        border: none;
-        cursor: pointer;
-    }
+nav #btn-mobile {
+    display: block;
+    padding: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: .5rem;
+}
 
-    header #btn-mobile #burguer-icon {
-        width: 30px;
-        height: 2px;
-        display: block;
-        border-top: 2px solid;
-        color: #000;
-        transition: .1s all;
-    }
+nav #btn-mobile #burguer-icon {
+    width: 30px;
+    height: 2px;
+    display: block;
+    border-top: 2px solid;
+    color: #000;
+    transition: .1s all;
+}
 
-    header #btn-mobile #burguer-icon::after {
-        width: 30px;
-        height: 2px;
-        display: block;
-        content: '';
-        background: currentColor;
-        margin-top: 10px;
-        position: relative;
-    }
+nav #btn-mobile #burguer-icon::after {
+    width: 30px;
+    height: 2px;
+    display: block;
+    content: '';
+    background: currentColor;
+    margin-top: 10px;
+    position: relative;
+}
 
-    header #nav.active #burguer-icon {
-        transform: rotate(45deg);
-    }
+header #nav.active #burguer-icon {
+    transform: rotate(45deg);
+}
 
-    header #nav.active #burguer-icon::after {
-        transform: rotate(90deg);
-        top: -12px;
-    }
+header #nav.active #burguer-icon::after {
+    transform: rotate(90deg);
+    top: -12px;
+}
+/* ---------- Finishes header ---------- */
 
-    /* ---------- Starts footer ---------- */
-    footer {
-        margin: 0;
-    }
+.project-photo {
+    padding: 0;
+}
+    
+/* ---------- Starts footer ---------- */
+footer {
+    margin: 0;
+}
 
-    footer h1 {
-        letter-spacing: -5px;
-    }
-
-    /* ---------- Finishes footer ---------- */
+footer h1 {
+    letter-spacing: -5px;
+}
+/* ---------- Finishes footer ---------- */
 }

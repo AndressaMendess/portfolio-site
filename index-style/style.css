@@ -55,10 +55,11 @@ body {
 
 /* ---------- Starts Header ---------- */
 header {
-    height: 800px;
+    height: 650px;
+    position: relative;
     display: flex;
     flex-direction: column;
-    position: relative;
+    justify-content: space-between;
 }
 
 header #square1, header #square2, header #square3 {
