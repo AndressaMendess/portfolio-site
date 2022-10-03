@@ -203,21 +203,22 @@ header #nav.active #menu {
     padding: 0 2rem;
 }
 
-header #menu li {
+nav #menu li {
     text-align: right;
     font-size: 2.2em;
     padding: 1.5rem 0;
 }
 
-header #btn-mobile {
+nav #btn-mobile {
     display: block;
     padding: 1rem;
     background: none;
     border: none;
     cursor: pointer;
+    margin-bottom: .5rem;
 }
 
-header #btn-mobile #burguer-icon {
+nav #btn-mobile #burguer-icon {
     width: 30px;
     height: 2px;
     display: block;
@@ -226,7 +227,7 @@ header #btn-mobile #burguer-icon {
     transition: .1s all;
 }
 
-header #btn-mobile #burguer-icon::after {
+nav #btn-mobile #burguer-icon::after {
     width: 30px;
     height: 2px;
     display: block;
@@ -243,6 +244,11 @@ header #nav.active #burguer-icon {
 header #nav.active #burguer-icon::after {
     transform: rotate(90deg);
     top: -12px;
+}
+
+nav img {
+    width: 65px;
+    padding-left: .5rem;
 }
 /* ---------- Finishes header ---------- */
 

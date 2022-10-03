@@ -61,39 +61,31 @@ header {
     position: relative;
 }
 
-header #square1 {
+header #square1, header #square2, header #square3 {
     width: 300px;
     height: 300px;
-    border: solid 5px var(--laranja);
-    /*background-image: linear-gradient(140deg, var(--roxo), var(--rosa));*/
     z-index: -1;
     position: absolute;
+}
+
+header #square1 {
     top: 10rem;
     left: -150px;
+    border: solid 5px var(--laranja);
 }
 
 header #square2 {
-    width: 300px;
-    height: 300px;
-    transform: rotate(50deg);
-    border: solid 2px var(--rosa);
-    /*background-image: linear-gradient(140deg, var(--rosa), var(--laranja));*/
-    z-index: -1;
-    position: absolute;
     top: 5rem;
     right: -150px;
+    border: solid 2px var(--rosa);
+    transform: rotate(50deg);
 }
 
 header #square3 {
-    width: 300px;
-    height: 300px;
-    transform: rotate(75deg);
-    border: solid 3px var(--verde);
-    /*background-image: linear-gradient(45deg, var(--laranja), var(--verde));*/
-    z-index: -1;
-    position: absolute;
     top: 25rem;
     right: 18rem;
+    border: solid 3px var(--verde);
+    transform: rotate(75deg);
 }
 
 nav {
@@ -209,7 +201,6 @@ header .header-text h3 {
 
 .projects-sec #project-two {
     background: none;
-    width: auto;
 }
 /* ---------- Finishes projects ---------- */
 
@@ -310,12 +301,12 @@ header #btn-mobile {
     background: none;
     border: none;
     cursor: pointer;
+    margin-bottom: .5rem;
 }
 
 header #btn-mobile #burguer-icon {
     width: 30px;
     height: 2px;
-    margin-bottom: 9px;
     display: block;
     border-top: 2px solid;
     color: #fff;
@@ -341,13 +332,18 @@ header #nav.active #burguer-icon::after {
     top: -12px;
 }
 
+nav img {
+    width: 65px;
+    padding-left: .5rem;
+}
+
 header .header-text h1 {
     letter-spacing: -5px;
 }
 
 header .header-text h3 {
     font-size: 1.2em;
-    margin-left: 1.3rem;
+    margin-left: 1rem;
 }
 /* ---------- Finishes header ---------- */
 
