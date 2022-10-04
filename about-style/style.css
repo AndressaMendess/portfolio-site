@@ -201,7 +201,6 @@ header #nav.active #menu {
     height: calc(100vh - 70px);
     visibility: visible;
     padding: 0 2rem;
-    z-index: 2;
 }
 
 nav #menu li {
