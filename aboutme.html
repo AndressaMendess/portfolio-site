@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="shortcut icon" href="media/personal-brand.png" type="image/x-icon">
     <link rel="stylesheet" href="about-style/style.css">
     <title>Sobre mim | Andressa Mendes</title>
@@ -25,18 +26,26 @@
     </header>
     <main>
         <section class="about-section">
-            <h1>Quem Andressa Mendes é?</h1>
-            <p>Meu nome é Andressa Mendes (bem perceptível, né?) moro em São Paulo, Brasil. Sou Desenvolvedora Front-End e Designer de Experiências e Interfaces. Sempre gostei de áreas voltadas para o visual e que mexem com a criatividade. Ser Designer permite explorar essa criatividade tirando as ideias do papel e transformando-as em telas e experiências agradáveis ao usuário, ser Desenvolvedora (programadora, chame do que quiser) funciona como um complemento para mim, pois também me permite ter ideias e coloca-lás em prática desenvolvendo-as.</p>
+            <h1 class="widget">Quem Andressa Mendes é?</h1>
+            <p class="widget">Meu nome é Andressa Mendes (bem perceptível, né?) moro em São Paulo, Brasil. Sou Desenvolvedora Front-End e Designer de Experiências e Interfaces. Sempre gostei de áreas voltadas para o visual e que mexem com a criatividade. Ser Designer permite explorar essa criatividade tirando as ideias do papel e transformando-as em telas e experiências agradáveis ao usuário, ser Desenvolvedora (programadora, chame do que quiser) funciona como um complemento para mim, pois também me permite ter ideias e coloca-lás em prática desenvolvendo-as.</p>
         </section>
         <section class="image-section">
-            <img src="media/profile-pic01.webp" alt="foto perfil Andressa">
+            <img src="media/profile-pic01.webp" alt="foto perfil Andressa" class="widget">
         </section>
     </main>
     <footer>
-        <h1>andressa.</h1>
-        <p>&copy; Andressa Mendes 2022. All Rights Reserved</p>
+        <h1 class="widget">andressa.</h1>
+        <p class="widget">&copy; Andressa Mendes 2022. All Rights Reserved</p>
     </footer>
 
     <script src="menu-script/script.js"></script>
+    <script>
+        ScrollReveal({reset: true})
+        ScrollReveal().reveal('.widget', {
+            duration: 1000,
+            rotate: {x: 15},
+            interval: 2
+        })
+    </script>
 </body>
 </html>
