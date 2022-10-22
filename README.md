@@ -4,3 +4,4 @@ Esse portfólio foi desenvolvido inteiramente com HTML, CSS e Javascript puros, 
 Possui somente o necessário como seções de informações sobre mim, links para contato e alguns do que considero meus melhores projetos.
 
 ## Para acessar:
+https://andressamendes.vercel.app/
