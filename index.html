@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="media/favicon1.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="index-style/style.css">
     <title>Andressa Mendes | Desenvolvimento Front-End e UX/UI Design</title>
 </head>
@@ -27,15 +28,15 @@
             </button>
         </nav>
         <div class="header-text">
-            <h1>andressa.</h1>
-            <h3>Desenvolvedora Front-End & UX/UI Designer. <br> São Paulo, Brasil.</h3>
+            <h1 data-aos="fade-up">andressa.</h1>
+            <h3 data-aos="fade-up">Desenvolvedora Front-End & UX/UI Designer. <br> São Paulo, Brasil.</h3>
         </div>
     </header>
     <main>
         <section class="projects-sec" id="projects">
-            <a href="projects/project-one/projectone.html">
+            <a href="projects/project-one/projectone.html" data-aos="fade-up">
                 <div class="project">
-                    <div class="projects-text">
+                    <div class="projects-text" >
                         <p>Polyphia Website
                         <i class="material-symbols-outlined">arrow_outward</i>
                         </p>
@@ -45,7 +46,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
+            <a href="#" data-aos="fade-up">
                 <div class="project">
                     <div class="projects-text">
                         <p>FloriFleur
@@ -62,19 +63,23 @@
     <footer>
         <div>
             <p>Que tal um e-mail&#63;</p>
-            <a href="mailto:andressasilvam25@gmail.com">andressasilvam25@gmail.com</a>
+            <a href="mailto:andressasilvam25@gmail.com" data-aos="fade-up">andressasilvam25@gmail.com</a>
         </div>
             <ul>
-                <li><a href="https://www.instagram.com/mendxsui/" target="_blank" rel="external">Instagram</a><i class="material-symbols-outlined">arrow_outward</i>
+                <li data-aos="fade-up"><a href="https://www.instagram.com/mendxsui/" target="_blank" rel="external">Instagram</a><i class="material-symbols-outlined">arrow_outward</i>
                 </li>
-                <li><a href="https://www.linkedin.com/in/andressa-mendes-56ba37249/" target="_blank" rel="external">LinkedIn</a><i class="material-symbols-outlined">arrow_outward</i>
+                <li data-aos="fade-up"><a href="https://www.linkedin.com/in/andressa-mendes-56ba37249/" target="_blank" rel="external">LinkedIn</a><i class="material-symbols-outlined">arrow_outward</i>
                 </li>
-                <li><a href="https://github.com/AndressaMendess" target="_blank" rel="external">Github</a><i class="material-symbols-outlined">arrow_outward</i>
+                <li data-aos="fade-up"><a href="https://github.com/AndressaMendess" target="_blank" rel="external">Github</a><i class="material-symbols-outlined">arrow_outward</i>
                 </li>
             </ul>
             <p>&copy; Andressa Mendes 2022. All Rights Reserved</p>
     </footer>
 
     <script src="menu-script/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 </body>
 </html>

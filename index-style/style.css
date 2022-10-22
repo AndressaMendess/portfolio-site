@@ -281,6 +281,7 @@ header nav #menu {
     transition: .6s all;
     visibility: hidden;
     overflow-y: hidden;
+    z-index: 9999;
 }
 
 header #nav.active #menu {
