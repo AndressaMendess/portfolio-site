@@ -195,10 +195,14 @@ header .header-text h3 {
 }
 
 .projects-container img {
-    width: 65%;
-    display: block;
-    box-shadow: 0 0 10px #0000003a;
+    width: 100%;
+    border-radius: 10px;
 }
+
+/*.projects-container {
+    background: #757575 url(../media/project-one.png) center center;
+    background-size: cover;
+}*/
 
 .projects-sec #project-two {
     background: none;
@@ -246,6 +250,7 @@ footer a:hover {
 @media screen and (max-width: 1200px) {
 .projects-sec .projects-container {
     width: 460px;
+    background-color: #000;
 }
 }
 
@@ -367,10 +372,6 @@ footer p, footer a {
 .projects-sec .projects-container {
     width: 100%;
     height: 350px;
-}
-
-.projects-sec .projects-container img {
-    width: 80%;
 }
 
 }
