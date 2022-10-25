@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="media/personal-brand.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="about-style/style.css">
     <title>Sobre mim | Andressa Mendes</title>
 </head>
@@ -26,18 +27,18 @@
     <main>
         <section class="section-container">
             <article class="about-article">
-                <h1>...?</h1>
-                <p>Meu nome é Andressa Mendes (bem perceptível, né?) moro em São Paulo, Brasil. Sou Desenvolvedora Front-End e Designer de Experiência do Usuário e Interfaces.</p>
-                <p>Sempre gostei de áreas voltadas para o visual e que mexem com a criatividade. Ser Designer permite resolver problemas e ao mesmo tempo explorar essa criatividade tirando as ideias do papel e transformando-as em telas, soluções e  experiências agradáveis para o usuário, ser Desenvolvedora Front-End funciona como um complemento, pois também me permite ter ideias e coloca-lás em prática desenvolvendo-as de forma técnica e acessível.</p>
+                <h1 data-aos="fade-right">...?</h1>
+                <p data-aos="fade-right">Meu nome é Andressa Mendes (bem perceptível, né?) moro em São Paulo, Brasil. Sou Desenvolvedora Front-End e Designer de Experiência do Usuário e Interfaces.</p>
+                <p data-aos="fade-right">Sempre gostei de áreas voltadas para o visual e que mexem com a criatividade. Ser Designer permite resolver problemas e ao mesmo tempo explorar essa criatividade tirando as ideias do papel e transformando-as em telas, soluções e  experiências agradáveis para o usuário, ser Desenvolvedora Front-End funciona como um complemento, pois também me permite ter ideias e coloca-lás em prática desenvolvendo-as de forma técnica e acessível.</p>
             </article>
             <article class="image-article">
-                <img src="media/profile-pic01.webp" alt="foto perfil Andressa">
+                <img data-aos="fade-right" src="media/profile-pic01.webp" alt="foto perfil Andressa">
             </article>
         </section>
         <article class="skills">
-            <h1>Como faço o trabalho?</h1>
-            <h3>UX/UI Design</h3>
-            <article class="methods-container">
+            <h1 data-aos="fade-right">Como faço o trabalho?</h1>
+            <h3 data-aos="fade-right">UX/UI Design</h3>
+            <article class="methods-container" data-aos="fade-right">
                 <div class="methods">
                     <h3>User Research</h3>
                     <p>Antes de criar o design de produtos, é necessário entender e empatizar com o usuário, utilizando diferentes métodos de pesquisas e entrevistas.</p>
@@ -63,8 +64,8 @@
                     <p>Refinar os designs criados durante o processo, adicionando elementos visuais, cores e deixando acessível.</p>
                 </div>
             </article>
-            <h3>Desenvolvimento Front-End</h3>
-            <article class="methods-container">
+            <h3 data-aos="fade-right">Desenvolvimento Front-End</h3>
+            <article class="methods-container" data-aos="fade-right">
                 <div class="languages">
                     <h3>HTML 5</h3>
                 </div>
@@ -101,5 +102,9 @@
     </footer>
 
     <script src="menu-script/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 </body>
 </html>
