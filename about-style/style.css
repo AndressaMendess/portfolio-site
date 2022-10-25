@@ -48,16 +48,9 @@ body {
     background-color: #000;
     font-family: var(--corpo), sans-serif;
     color: #fff;
-    line-height: 1.8em;
+    line-height: 2em;
     overflow-x: hidden;
     scroll-behavior: smooth;
-}
-
-main {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
 }
 
 /* ---------- Starts header ---------- */
@@ -109,6 +102,13 @@ nav #btn-mobile {
 
 /* ---------- Starts about-section ---------- */
 section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section > article {
     max-width: 1200px;
     min-height: 680px;
     margin: auto;
@@ -118,45 +118,89 @@ section {
     justify-content: center;
 }
 
-.about-section {
+.about-article {
     width: 50%;
     padding: 2rem;
 }
 
-.about-section h1 {
-    font: 900 3em var(--corpo);
+.about-article h1 {
+    font: 100 3em var(--corpo);
     margin-bottom: 1rem;
+    color: #aaa;
 }
 
-.about-section p {
+.about-article p {
     text-indent: 2em;
-    margin-bottom: 1rem;
 }
 
-.about-section ul {
+.about-article ul {
     display: flex;
     flex-wrap: wrap;
     margin: 0 .2rem;
 }
 
-.about-section ul li {
+.about-article ul li {
     padding: 1rem 2rem;
 }
 /* ---------- Finishes about-section ---------- */
 
 /* ---------- Starts image-section ---------- */
-.image-section {
+.image-article {
     width: auto;
     padding: 2rem;
 }
 
-.image-section img {
+.image-article img {
     width: 430px;
     height: 430px;
     object-fit: cover;
     border-radius: 10px;
 }
 /* ---------- Finishes image-section ---------- */
+
+/* ---------- Starts skills article ---------- */
+article.skills {
+    height: auto;
+    padding: 2rem;
+}
+
+article.methods-container {
+    max-width: 1200px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills h1 {
+    font: 100 3em var(--corpo);
+    margin-bottom: 1rem;
+    color: #aaa;
+}
+
+.skills > h3 {
+    font: 200 2em var(--corpo);
+    margin: 2rem 0;
+}
+
+.skills div {
+    width: 330px;
+    height: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+}
+
+.skills div.languages {
+    width: 150px;
+    height: 150px;
+}
+
+.skills div h3 {
+    font: 100 1.2em var(--corpo);
+    margin-bottom: .5rem;
+}
+/* ---------- Finishes skills article ---------- */
 
 /* ---------- Starts footer ---------- */
 footer {
@@ -253,20 +297,24 @@ nav img {
 /* ---------- Finishes header ---------- */
 
 /* ---------- Starts sections ---------- */
-main {
+section {
     flex-direction: column;
 }
 
-.about-section, .image-section {
+article {
+    min-height: 550px;
+}
+
+.about-article, .image-article {
     width: 100%;
 }
 
-.image-section {
+.image-article {
     display: flex;
     align-items: center;
 }
 
-.image-section img {
+.image-article img {
     width: 80vw;
 }
 /* ---------- Finishes sections ---------- */
