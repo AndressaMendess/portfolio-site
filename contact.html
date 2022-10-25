@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <link rel="shortcut icon" href="media/personal-brand.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="contact-style/style.css">
     <title>Contato | Andressa Mendes</title>
 </head>
@@ -28,7 +29,7 @@
         <div class="square1"></div>
         <div class="square2"></div>
         <section class="contacts">
-            <div>
+            <div data-aos="fade-right">
                 <p>Para ver mais trabalhos:</p>
                 <ul>
                     <li>
@@ -41,7 +42,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div data-aos="fade-right">
                 <p>Para os devs:</p>
                 <ul>
                     <li>
@@ -54,7 +55,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div data-aos="fade-right">
                 <p>Para os recrutadores:</p>
                 <ul>
                     <li>
@@ -73,5 +74,9 @@
     </footer>
     
     <script src="menu-script/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 </body>
 </html>
