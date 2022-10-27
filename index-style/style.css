@@ -185,7 +185,7 @@ header .header-text h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #757575;
+    background-color: #000;
     border-radius: 10px;
     transition: .2s all;
 }
@@ -197,15 +197,6 @@ header .header-text h3 {
 .projects-container img {
     width: 100%;
     border-radius: 10px;
-}
-
-/*.projects-container {
-    background: #757575 url(../media/project-one.png) center center;
-    background-size: cover;
-}*/
-
-.projects-sec #project-two {
-    background: none;
 }
 /* ---------- Finishes projects ---------- */
 
