@@ -32,7 +32,7 @@
 
 *::-webkit-scrollbar-thumb {
     background-color: #000;
-    border-right: 2px solid #c2c2c2;
+    border-right: 1px solid #c2c2c2;
 }
 
 ::selection {
@@ -51,11 +51,6 @@ body {
     line-height: 1.8em;
     overflow-x: hidden;
     scroll-behavior: smooth;
-}
-
-main {
-    width: 100vw;
-    height: auto;
 }
 
 /* ---------- Starts header ---------- */
@@ -98,7 +93,7 @@ nav #btn-mobile {
 }
 /* ---------- Finishes header ---------- */
 
-/* ---------- Starts sections ---------- */
+/* ---------- Starts project-description ---------- */
 .project-description {
     max-width: 1200px;
     height: auto;
@@ -114,6 +109,7 @@ nav #btn-mobile {
     justify-content: space-between;
     padding: .5rem;
     font-size: .8em;
+    margin: 1rem 0;
 }
 
 .project-description h1 {
@@ -124,34 +120,20 @@ nav #btn-mobile {
 .project-description p {
     font: 300 1.3em var(--corpo);
     line-height: 1.8em;
-    margin-bottom: 2rem;
-}
-
-.project-photo {
-    max-width: 1200px;
-    height: auto;
-    margin: 2rem auto;
-    padding: 1.5rem;
-    text-align: center;
-}
-
-.project-photo img {
-    width: 90%;
-    border-radius: 5px;
 }
 
 .project-description .info {
     display: flex;
+    margin: 2rem 0;
 }
 
 .project-description .info .info-title,
 .project-description .info .info-desc {
     width: 50%;
-    padding: 1rem;
 }
 
 .info .info-title ul li {
-    padding: 2.4rem 0;
+    padding: 2.2rem 0;
     font-weight: 800;
 }
 
@@ -159,16 +141,26 @@ nav #btn-mobile {
     padding: 1rem 0;
     border-bottom: solid 1px #000;
 }
+/* ---------- Finishes project-description ---------- */
 
-.info .info-desc ul li a {
-    color: #000;
-    font-weight: 700;
+/* ---------- Starts project-photo ---------- */
+.project-photo {
+    max-width: 1200px;
+    height: auto;
+    margin: 2rem auto;
+    text-align: center;
 }
 
-.info .info-desc ul li a:hover {
-    text-decoration: underline;
+.project-photo img {
+    width: 90%;
+    border-radius: 5px;
+    margin: 0 0 3rem 0;
 }
-/* ---------- Finishes sections ---------- */
+
+.project-photo h1 {
+    font: 200 2em var(--corpo);
+}
+/* ---------- Finishes project-photo ---------- */
 
 /* ---------- Starts footer ---------- */
 footer {
@@ -186,7 +178,7 @@ footer h1 {
 /* ---------- Finishes footer ---------- */
 
 
-/* ---------- Starts media queries ---------- */
+
 
 @media screen and (max-width: 768px) {
 /* ---------- Starts header ---------- */
@@ -259,10 +251,6 @@ header #nav.active #burguer-icon::after {
 }
 /* ---------- Finishes header ---------- */
 
-.project-photo {
-    padding: 0;
-}
-    
 /* ---------- Starts footer ---------- */
 footer {
     margin: 0;
