@@ -112,12 +112,12 @@ nav #btn-mobile {
     margin: 1rem 0;
 }
 
-.project-description h1 {
+section h1 {
     font: 900 2.5em var(--corpo);
     margin-bottom: 2rem;
 }
 
-.project-description p {
+section p {
     font: 300 1.3em var(--corpo);
     line-height: 1.8em;
 }
@@ -168,21 +168,6 @@ article {
     height: auto;
     margin: 3rem auto;
     padding: 4rem 1rem;
-}
-
-article.second-part {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-article.second-part div {
-    padding: 1rem;
-    width: 50%;
-}
-
-article.second-part img {
-    width: 50%;
 }
 
 article h1 {
@@ -287,17 +272,8 @@ header #nav.active #burguer-icon::after {
 /* ---------- Finishes header ---------- */
 
 .project-photo img {
-    width: 100%;
+    width: 80%;
 }
-
-article.second-part {
-    flex-direction: column;
-}
-
-article.second-part img {
-    width: 100%;
-}
-
 /* ---------- Starts footer ---------- */
 footer {
     margin: 0;
