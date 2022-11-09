@@ -156,10 +156,6 @@ section p {
     border-radius: 5px;
     margin: 3rem 0;
 }
-
-.project-photo .default {
-    background-color: #979797;
-}
 /* ---------- Finishes project-photo ---------- */
 
 /* ---------- Starts articles ---------- */
@@ -200,8 +196,6 @@ article p {
 .projects div img {
     border-radius: 10px;
 }
-
-
 /* ---------- Finishes projects ---------- */
 
 /* ---------- Starts footer ---------- */
