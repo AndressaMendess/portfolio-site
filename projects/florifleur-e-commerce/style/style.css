@@ -152,9 +152,9 @@ section p {
 }
 
 .project-photo img {
-    width: 80%;
+    max-width: 1200px;
     border-radius: 5px;
-    margin: 3rem 0;
+    margin: 1rem 0;
 }
 /* ---------- Finishes project-photo ---------- */
 
@@ -178,26 +178,6 @@ article p {
 
 /* ---------- Finishes articles ---------- */
 
-/* ---------- Starts projects ---------- */
-.projects {
-    width: 100%;
-    height: auto;
-    margin: 5rem auto;
-    padding: 1rem;
-    text-align: center;
-}
-
-.projects div {
-    width: 1300px;
-    height: 600px;
-    margin: 2rem auto;
-}
-
-.projects div img {
-    border-radius: 10px;
-}
-/* ---------- Finishes projects ---------- */
-
 /* ---------- Starts footer ---------- */
 footer {
     text-align: center;
@@ -212,22 +192,6 @@ footer h1 {
     transition: .5s all;
 }
 /* ---------- Finishes footer ---------- */
-
-
-@media screen and (max-width: 1200px) {
-.project-photo img {
-    width: 80%;
-}
-
-.projects div {
-    width: 100%;
-    height: auto;
-}
-
-.projects div img {
-    width: 100%;
-}
-}
 
 
 @media screen and (max-width: 768px) {
@@ -300,6 +264,10 @@ header #nav.active #burguer-icon::after {
     top: -12px;
 }
 /* ---------- Finishes header ---------- */
+
+.project-photo img {
+    width: 90%;
+}
 
 /* ---------- Starts footer ---------- */
 footer {
