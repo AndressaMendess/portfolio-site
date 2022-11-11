@@ -160,11 +160,12 @@ section p {
 
 .project-photo .quote {
     max-width: 500px;
-    margin: 4rem auto;
+    margin: 2rem auto;
+    padding: 1rem;
 }
 
 .project-photo .quote p {
-    background-color: #fff;
+    border: 1px solid #000;
     border-radius: 5px;
     padding: 1rem;
 }
@@ -277,9 +278,11 @@ header #nav.active #burguer-icon::after {
 }
 /* ---------- Finishes header ---------- */
 
+/* ---------- Starts projects ---------- */
 .project-photo img {
     width: 90%;
 }
+/* ---------- Finishes projects ---------- */
 
 /* ---------- Starts footer ---------- */
 footer {
