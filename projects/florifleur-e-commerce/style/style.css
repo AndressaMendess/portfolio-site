@@ -105,12 +105,29 @@ nav #btn-mobile {
     align-content: center;
 }
 
+.project-description a {
+    color: #000;
+    display: flex;
+    align-items: center;
+    width: 90px;
+    transition: .1s all;
+}
+
+.project-description a i {
+    padding-right: .5rem;
+}
+
+.project-description a:hover, 
+.project-description i:hover {
+    font-weight: 900;
+}
+
 .project-description #date {
     display: flex;
     justify-content: space-between;
     padding: .5rem;
     font-size: .8em;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 section h1 {
@@ -206,6 +223,14 @@ footer h1 {
 }
 /* ---------- Finishes footer ---------- */
 
+
+@media screen and (max-width: 1200px) {
+/* ---------- Starts projects ---------- */
+.project-photo img {
+    max-width: 900px;
+}
+/* ---------- Finishes projects ---------- */
+}
 
 @media screen and (max-width: 768px) {
 /* ---------- Starts header ---------- */
