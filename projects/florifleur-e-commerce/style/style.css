@@ -188,26 +188,6 @@ section p {
 }
 /* ---------- Finishes project-photo ---------- */
 
-/* ---------- Starts articles ---------- */
-article {
-    width: 100%;
-    height: auto;
-    margin: 3rem auto;
-    padding: 4rem 1rem;
-}
-
-article h1 {
-    font: 500 2em var(--corpo);
-}
-
-article p {
-    font: 300 1.2em var(--corpo);
-    margin: 1rem 0;
-    line-height: 1.8em;
-}
-
-/* ---------- Finishes articles ---------- */
-
 /* ---------- Starts footer ---------- */
 footer {
     text-align: center;
