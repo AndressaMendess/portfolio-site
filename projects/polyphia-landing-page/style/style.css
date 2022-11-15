@@ -108,11 +108,11 @@ nav #btn-mobile {
     align-content: center;
 }
 
-.project-description a {
+.project-description > a {
     color: #000;
     display: flex;
-    align-items: center;
     width: 90px;
+    align-items: center;
     transition: .1s all;
 }
 
@@ -179,11 +179,12 @@ nav #btn-mobile {
 
 .info .info-desc ul li a {
     color: #000;
-    font-weight: 700;
+    font-weight: 600;
+    transition: .2s all;
 }
 
 .info .info-desc ul li a:hover {
-    text-decoration: underline;
+    font-weight: 900;
 }
 /* ---------- Finishes sections ---------- */
 
