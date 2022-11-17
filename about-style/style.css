@@ -159,48 +159,81 @@ section > article {
 /* ---------- Finishes image-section ---------- */
 
 /* ---------- Starts skills article ---------- */
-article.skills {
+.skills {
+    max-width: 1200px;
     height: auto;
-    padding: 2.5rem;
-}
-
-article.methods-container {
-    max-width: 1100px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin: 2rem;
 }
 
 .skills h1 {
-    font: 100 2.5em var(--corpo);
+    font: 200 2.5em var(--corpo);
     margin-bottom: 1rem;
     color: #aaa;
 }
 
 .skills > h3 {
-    font: 200 1.8em var(--corpo);
-    margin: 2rem 0;
+    font: 400 1.8em var(--corpo);
+    margin: 3rem 0;
 }
 
-.skills div {
-    width: 330px;
-    margin: .5rem;
-    padding: 1rem;
-    border: 1px solid #fff;
+.skills .faq {
+    max-width: 700px;
+    margin: 3rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
 }
 
-.skills div h3 {
-    font: 100 1.1em var(--corpo);
-    margin-bottom: .5rem;
+.skills .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.skills div p {
-    margin-bottom: 1.5rem;
+.skills .question h3 {
+    font: 100 2em var(--corpo);
 }
 
-.skills div.languages {
-    width: 150px;
+.skills .faq .question .icon {
+    width: 10px;
+    height: 2px;
+    display: block;
+    border-top: 2px solid #fff;
+    transition: .2s all;
+    transform: rotate(90deg);
+}
+
+.skills .faq .question .icon::before {
+    width: 10px;
+    height: 2px;
+    display: block;
+    content: '';
+    border-top: 2px solid #fff;
+    position: relative;
+    left: -1px;
+    top: -3px;            
+    transform: rotate(90deg);
+    transition: .2s all;
+}
+
+.skills .faq .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s all;
+}
+
+.skills .faq .answer p {
+    font-weight: 400;
+    line-height: 1.8em;
+    padding: 1.5rem 0;
+}
+
+.skills .faq.active .answer {
+    max-height: 200px;
+}
+
+.skills .faq.active .question .icon {
+    transform: rotate(315deg);
 }
 /* ---------- Finishes skills article ---------- */
 
