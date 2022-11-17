@@ -235,6 +235,11 @@ section > article {
 .skills .faq.active .question .icon {
     transform: rotate(315deg);
 }
+
+.skills ul li {
+    padding: 2rem;
+    font: 100 1.8em var(--corpo);
+}
 /* ---------- Finishes skills article ---------- */
 
 /* ---------- Starts footer ---------- */
