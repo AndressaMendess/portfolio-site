@@ -105,11 +105,11 @@ nav #btn-mobile {
     align-content: center;
 }
 
-.project-description a {
-    color: #000;
+.project-description > a {
+    width: 90px;
     display: flex;
     align-items: center;
-    width: 90px;
+    color: #000;
     transition: .1s all;
 }
 
@@ -151,13 +151,23 @@ section p {
 }
 
 .info .info-title ul li {
-    padding: 2.5rem 0;
+    padding: 2.2rem 0;
     font-weight: 800;
 }
 
 .info .info-desc ul li {
     padding: 1rem 0;
     border-bottom: solid 1px #000;
+}
+
+.info .info-desc ul li a {
+    color: #000;
+    font-weight: 600;
+    transition: .2s all;
+}
+
+.info .info-desc ul li a:hover {
+    font-weight: 900;
 }
 /* ---------- Finishes project-description ---------- */
 

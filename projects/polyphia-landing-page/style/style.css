@@ -144,19 +144,6 @@ nav #btn-mobile {
     margin-bottom: 2rem;
 }
 
-.project-photo {
-    max-width: 1200px;
-    height: auto;
-    margin: 2rem auto;
-    padding: 1.5rem;
-    text-align: center;
-}
-
-.project-photo img {
-    width: 90%;
-    border-radius: 5px;
-}
-
 .project-description .info {
     display: flex;
 }
@@ -185,6 +172,19 @@ nav #btn-mobile {
 
 .info .info-desc ul li a:hover {
     font-weight: 900;
+}
+
+.project-photo {
+    max-width: 1200px;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.project-photo img {
+    width: 90%;
+    border-radius: 5px;
 }
 /* ---------- Finishes sections ---------- */
 

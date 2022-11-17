@@ -254,10 +254,6 @@ header #square1, header #square2, header #square3 {
     height: 200px;
 }
 
-header #bola1 {
-    left: calc(-200px / 2);
-}
-
 header #square2 {
     right: calc(-200px / 2);
 }
