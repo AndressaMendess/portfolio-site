@@ -42,7 +42,7 @@ html {
 
 ::selection {
     color: #000;
-    background-color: var(--amarelo);
+    background-color: var(--roxo);
 }
 
 body {
@@ -202,12 +202,22 @@ header .header-text h3 {
 
 /* ---------- Starts footer ---------- */
 footer {
-    height: 350px;
+    min-height: 350px;
     padding: 2rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
     border-top: 1px solid #fff;
+}
+
+footer article {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer p {
@@ -222,12 +232,11 @@ footer a {
 }
 
 footer ul li {
-    padding: .5rem;
+    padding: .6rem;
 }
 
 footer ul li a {
     color: #fff;
-    text-decoration: underline;
     transition: .5s all;
 }
 
@@ -245,9 +254,7 @@ footer a:hover {
 }
 }
 
- 
 @media screen and (max-width: 768px) {
-
 /* ---------- Starts header ---------- */
 header #square1, header #square2, header #square3 {
     width: 200px;
@@ -348,12 +355,16 @@ footer {
     padding: 1rem;
 }
 
+footer article {
+    flex-direction: column;
+    gap: 2rem;
+}
+
 footer p, footer a {
     font-size: 1.2em;
 }
 /* ---------- Finishes footer ---------- */
 }
-
 
 @media screen and (max-width: 480px) {
 .projects-sec .projects-container {
