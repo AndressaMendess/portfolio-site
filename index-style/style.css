@@ -153,7 +153,7 @@ header .header-text h3 {
     width: 100%;
     height: auto;
     margin: 8rem auto;
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     border-top: 1px solid #fff;
@@ -199,6 +199,109 @@ header .header-text h3 {
     border-radius: 10px;
 }
 /* ---------- Finishes projects ---------- */
+
+/* ---------- Starts faq ---------- */
+.square4 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 1rem;
+    z-index: -1;
+    border: 3px solid var(--roxo);
+    transform: rotate(345deg);
+}
+
+.square5 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30rem;
+    right: 20rem;
+    z-index: -1;
+    border: 2px solid var(--amarelo);
+    transform: rotate(25deg);
+}
+
+.faq-sec {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 2rem auto;
+    padding: 5rem 1rem;
+    border-top: 1px solid #fff;
+}
+
+.faq-sec h1 {
+    font: 200 2.5em var(--corpo);
+    margin-bottom: 1rem;
+    color: #aaa;
+}
+
+.faq-sec > h3 {
+    font: 400 1.8em var(--corpo);
+    margin: 3rem 0;
+}
+
+.faq-sec .faq {
+    max-width: 900px;
+    margin: 3rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+
+.faq-sec .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-sec .question > h3 {
+    font: 100 2em var(--corpo);
+}
+
+.faq-sec .faq .question .icon {
+    width: 10px;
+    height: 2px;
+    display: block;
+    border-top: 2px solid #fff;
+    transition: .2s all;
+    transform: rotate(90deg);
+}
+
+.faq-sec .faq .question .icon::before {
+    width: 10px;
+    height: 2px;
+    display: block;
+    content: '';
+    border-top: 2px solid #fff;
+    position: relative;
+    left: -1px;
+    top: -3px;            
+    transform: rotate(90deg);
+    transition: .2s all;
+}
+
+.faq-sec .faq .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s all;
+}
+
+.faq-sec .faq .answer p {
+    font-weight: 400;
+    line-height: 1.8em;
+    padding: 1.5rem 0;
+}
+
+.faq-sec .faq.active .answer {
+    max-height: 200px;
+}
+
+.faq-sec .faq.active .question .icon {
+    transform: rotate(315deg);
+}
+/* ---------- Finishes faq ---------- */
 
 /* ---------- Starts footer ---------- */
 footer {
@@ -347,6 +450,10 @@ header .header-text h3 {
     margin-left: 1rem;
 }
 /* ---------- Finishes header ---------- */
+
+.square4, .square5 {
+    opacity: .4;
+}
 
 /* ---------- Starts footer ---------- */
 footer {
