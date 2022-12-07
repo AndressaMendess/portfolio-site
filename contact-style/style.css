@@ -133,11 +133,21 @@ nav #btn-mobile {
     min-height: 500px;
     margin: 5rem auto;
     padding: 1rem;
+}
+
+.contacts h3 {
+    font: 300 1.8em var(--corpo);
+    line-height: 1.8em;
+    margin-bottom: 3rem;
+}
+
+article {
     display: flex;
     justify-content: space-between;
 }
 
 .contacts div {
+    margin: 5rem 0;
     padding: .8rem;
 }
 
@@ -258,7 +268,7 @@ header #nav.active #burguer-icon::after {
 }
 /* ---------- Finishes header ---------- */
 
-.contacts {
+article {
     flex-direction: column;
 }
 
