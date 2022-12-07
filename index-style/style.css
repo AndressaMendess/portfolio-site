@@ -152,7 +152,7 @@ header .header-text h3 {
 .projects-sec {
     width: 100%;
     height: auto;
-    margin: 8rem auto;
+    margin: 4rem auto;
     padding: 1.5rem;
     display: flex;
     flex-wrap: wrap;
@@ -227,7 +227,7 @@ header .header-text h3 {
     height: auto;
     position: relative;
     margin: 2rem auto;
-    padding: 5rem 1rem;
+    padding: 5rem 4rem;
     border-top: 1px solid #fff;
 }
 
@@ -453,6 +453,10 @@ header .header-text h3 {
 
 .square4, .square5 {
     opacity: .4;
+}
+
+.faq-sec {
+    padding: 5rem 1rem;
 }
 
 /* ---------- Starts footer ---------- */
