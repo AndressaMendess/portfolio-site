@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
+    --background: #131313;
     --verde: #2bb500;
     --laranja: #d61c00;
     --roxo: #6336c5;
@@ -27,12 +28,12 @@
 }
 
 *::-webkit-scrollbar-track {
-    background-color: #000;
+    background-color: var(--background);
 }
 
 *::-webkit-scrollbar-thumb {
     background-color: #aaa;
-    border-right: 1px solid #000;
+    border-right: 1px solid var(--background);
 }
 
 html {
@@ -41,12 +42,12 @@ html {
 }
 
 ::selection {
-    color: #000;
+    color: var(--background);
     background-color: var(--roxo);
 }
 
 body {
-    background-color: #000;
+    background-color: var(--background);
     font-family: var(--corpo);
     color: #fff;
     line-height: 1.8em;
@@ -60,6 +61,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #c0c0c0;
 }
 
 header #square1, header #square2, header #square3 {
@@ -97,7 +99,7 @@ nav {
     align-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: #000;
+    background-color: var(--background);
     border-bottom: 1px solid #fff;
 }
 
@@ -185,7 +187,7 @@ header .header-text h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #000;
+    background-color: transparent;
     border-radius: 10px;
     transition: .2s all;
 }
@@ -352,8 +354,7 @@ footer a:hover {
 /* ---------- Starts media queries ---------- */
 @media screen and (max-width: 1200px) {
 .projects-sec .projects-container {
-    width: 460px;
-    background-color: #000;
+    width: 100%;
 }
 }
 
@@ -379,7 +380,7 @@ header nav #menu {
     position: absolute;
     top: 80px;
     left: 0;
-    background-color: #000;
+    background-color: var(--background);
     transition: .6s all;
     visibility: hidden;
     overflow-y: hidden;
@@ -480,7 +481,7 @@ footer p, footer a {
 @media screen and (max-width: 480px) {
 .projects-sec .projects-container {
     width: 100%;
-    height: 350px;
+    height: auto;
 }
 }
 
