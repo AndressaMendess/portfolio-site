@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
+    --background: #131313;
     --verde: #2bb500;
     --laranja: #d61c00;
     --roxo: #6336c5;
@@ -27,12 +28,12 @@
 }
 
 *::-webkit-scrollbar-track {
-    background-color: #000;
+    background-color: var(--background);
 }
 
 *::-webkit-scrollbar-thumb {
     background-color: #aaa;
-    border-right: 1px solid #000;
+    border-right: 1px solid var(--background);
 }
 
 ::selection {
@@ -45,7 +46,7 @@ html {
 }
 
 body {
-    background-color: #000;
+    background-color: var(--background);
     font-family: var(--corpo), sans-serif;
     color: #fff;
     line-height: 2em;
@@ -274,7 +275,7 @@ header nav #menu {
     position: absolute;
     top: 80px;
     left: 0;
-    background-color: #000;
+    background-color: var(--background);
     transition: .6s all;
     visibility: hidden;
     overflow-y: hidden;
