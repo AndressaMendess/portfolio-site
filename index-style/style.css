@@ -61,7 +61,6 @@ header {
     border-radius: 0 0 10px 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: #d9d9d9;
     color: #000;
 }
@@ -362,6 +361,10 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
 /* ---------- Starts header ---------- */
+header {
+    min-height: 660px;
+}
+
 header #square1, header #square2, header #square3 {
     width: 200px;
     height: 200px;
