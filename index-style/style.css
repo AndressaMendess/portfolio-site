@@ -446,16 +446,12 @@ header .header-text h3 {
 footer {
     flex-direction: column;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 
-footer article {
+footer ul {
     flex-direction: column;
-    gap: 2rem;
-}
-
-footer p, footer a {
-    font-size: 1.2em;
+    gap: 0;
 }
 /* ---------- Finishes footer ---------- */
 }
