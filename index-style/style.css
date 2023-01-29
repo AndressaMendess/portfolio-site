@@ -59,6 +59,7 @@ header {
     min-height: 770px;
     position: relative;
     border-radius: 0 0 10px 10px;
+    border: 10px solid var(--background);
     display: flex;
     flex-direction: column;
     background-color: #d9d9d9;
