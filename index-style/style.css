@@ -72,23 +72,27 @@ header #square1, header #square2, header #square3 {
 }
 
 header #square1 {
-    top: 10rem;
-    left: -150px;
-    border: solid 5px var(--laranja);
+    top: 0;
+    left: 40rem;
+    background-color: #FF7A00;
+    border-radius: 50%;
+    filter: blur(80px);
 }
 
 header #square2 {
     top: 5rem;
-    right: -150px;
-    border: solid 2px var(--rosa);
-    transform: rotate(50deg);
+    right: 8rem;
+    background-color: #90D401;
+    border-radius: 50%;
+    filter: blur(80px);
 }
 
 header #square3 {
     top: 25rem;
     right: 18rem;
-    border: solid 3px var(--verde);
-    transform: rotate(75deg);
+    background-color: #6336C5;
+    border-radius: 50%;
+    filter: blur(80px);
 }
 
 nav {
