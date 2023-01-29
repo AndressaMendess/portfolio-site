@@ -63,7 +63,7 @@ header {
     display: flex;
     flex-direction: column;
     border: 5px solid var(--background);
-    border-radius: 0 0 10px 10px;
+    border-radius: 15px;
 }
 
 header #square1, header #square2, header #square3 {
@@ -290,25 +290,26 @@ header .header-text h3 {
 /* ---------- Starts footer ---------- */
 footer {
     min-height: 350px;
-    padding: 2rem;
+    padding: 2.5rem;
     background-color: #d9d9d9;
     color: #000;
-    border: 5px solid var(--background);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
+    gap: 3rem;
+    border: 5px solid var(--background);
+    border-radius: 15px;
 }
 
 footer h2 {
-    font: 600 2em var(--corpo);
+    font: 900 2.2em var(--corpo);
 }
 
 footer p {
     font: 400 1.3em var(--corpo);
-    color: #000;
     margin-bottom: .5rem;
+    color: #000;
 }
 
 footer a {
@@ -316,13 +317,17 @@ footer a {
     color: #000;
 }
 
+footer ul {
+    display: flex;
+    gap: 5rem;
+}
+
 footer ul li {
-    padding: .6rem;
+    padding: 1rem;
 }
 
 footer ul li a {
-    color: #000;
-    transition: .5s all;
+    font-weight: 400;
 }
 /* ---------- Finishes footer ---------- */
 
