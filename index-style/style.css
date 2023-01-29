@@ -58,6 +58,7 @@ body {
 header {
     min-height: 770px;
     position: relative;
+    border-radius: 0 0 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -366,12 +367,17 @@ header #square1, header #square2, header #square3 {
     height: 200px;
 }
 
+header #square1 {
+    left: 20rem;
+}
+
 header #square2 {
-    right: calc(-200px / 2);
+    left: 26rem;
 }
 
 header #square3 {
-    right: 0;
+    top: 16rem;
+    left: 16rem;
 }
 
 header nav #menu {
