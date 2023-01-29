@@ -61,7 +61,6 @@ header {
     border-radius: 0 0 10px 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: #d9d9d9;
     color: #000;
 }
@@ -135,7 +134,7 @@ nav #btn-mobile {
 }
 
 header .header-text {
-    height: 500px;
+    min-height: 500px;
     padding: .5rem;
     display: flex;
     flex-direction: column;
@@ -205,27 +204,6 @@ header .header-text h3 {
 /* ---------- Finishes projects ---------- */
 
 /* ---------- Starts faq ---------- */
-.square4 {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    right: 1rem;
-    z-index: -1;
-    border: 3px solid var(--roxo);
-    transform: rotate(345deg);
-}
-
-.square5 {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 30rem;
-    right: 20rem;
-    z-index: -1;
-    border: 2px solid var(--amarelo);
-    transform: rotate(25deg);
-}
-
 .faq-sec {
     width: 100%;
     height: auto;
@@ -362,26 +340,22 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
 /* ---------- Starts header ---------- */
-header {
-    min-height: 660px;
-}
-
-header #square1, header #square2, header #square3 {
+/*header #square1, header #square2, header #square3 {
     width: 200px;
     height: 200px;
-}
+}*/
 
 header #square1 {
-    left: 20rem;
+    left: 12rem;
 }
 
 header #square2 {
-    left: 26rem;
+    left: 20rem;
 }
 
 header #square3 {
-    top: 16rem;
-    left: 16rem;
+    top: 12rem;
+    left: 8rem;
 }
 
 header nav #menu {
@@ -454,7 +428,7 @@ nav img {
 }
 
 header .header-text h1 {
-    letter-spacing: -5px;
+    letter-spacing: -8px;
 }
 
 header .header-text h3 {
@@ -462,10 +436,6 @@ header .header-text h3 {
     margin-left: 1rem;
 }
 /* ---------- Finishes header ---------- */
-
-.square4, .square5 {
-    opacity: .4;
-}
 
 .faq-sec {
     padding: 5rem 1rem;
