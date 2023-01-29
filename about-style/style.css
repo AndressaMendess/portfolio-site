@@ -19,7 +19,7 @@
     list-style-type: none;
     list-style-position: inside;
     text-decoration: none;
-    scrollbar-color: #aaa;
+    scrollbar-color: #d9d9d9;
     scrollbar-width: 10px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #aaa;
+    background-color: #d9d9d9;
     border-right: 1px solid var(--background);
 }
 
@@ -246,7 +246,7 @@ section > article {
 /* ---------- Starts footer ---------- */
 footer {
     text-align: center;
-    color: #aaa;
+    color: #d9d9d9;
     margin-bottom: 1rem;
     padding: .2rem;
 }
