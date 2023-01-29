@@ -32,7 +32,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #aaa;
+    background-color: #d9d9d9;
     border-right: 1px solid var(--background);
 }
 
@@ -88,8 +88,8 @@ header #square2 {
 }
 
 header #square3 {
-    top: 25rem;
-    right: 18rem;
+    top: 15rem;
+    right: 20rem;
     background-color: #6336C5;
     border-radius: 50%;
     filter: blur(80px);
@@ -103,6 +103,7 @@ nav {
     align-content: center;
     align-items: center;
     padding: 1rem;
+    z-index: 1;
 }
 
 nav img {
@@ -380,7 +381,7 @@ header nav #menu {
     position: absolute;
     top: 80px;
     left: 0;
-    background-color: var(--background);
+    background-color: #d9d9d9;
     transition: .6s all;
     visibility: hidden;
     overflow-y: hidden;
@@ -414,7 +415,7 @@ header #btn-mobile #burguer-icon {
     height: 2px;
     display: block;
     border-top: 2px solid;
-    color: #fff;
+    color: #000;
     transition: .1s all;
 }
 
