@@ -299,23 +299,19 @@ footer {
     border-top: 1px solid #fff;
 }
 
-footer article {
-    width: 100%;
-    max-width: 700px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+footer h2 {
+    font: 600 2em var(--corpo);
 }
 
 footer p {
     font: 400 1.3em var(--corpo);
-    color: #fff;
+    color: #000;
     margin-bottom: .5rem;
 }
 
 footer a {
     font: 200 1.3em var(--corpo);
-    color: #fff;
+    color: #000;
 }
 
 footer ul li {
@@ -323,12 +319,8 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #fff;
+    color: #000;
     transition: .5s all;
-}
-
-footer a:hover {
-    color: #aaa;
 }
 /* ---------- Finishes footer ---------- */
 
