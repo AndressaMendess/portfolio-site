@@ -174,10 +174,9 @@ header .header-text h3 {
 }
 
 .projects-sec a {
-    max-height: 400px;
     color: #fff;
     font: 400 1.5em var(--corpo);
-    margin: 2.5rem auto;
+    margin: 3rem auto;
 }
 
 .project .projects-text {
