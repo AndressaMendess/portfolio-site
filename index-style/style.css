@@ -225,7 +225,7 @@ header .header-text h3 {
     color: var(--gray);
 }
 
-.faq-sec .faq-wrap > h3 {
+.faq-sec .title-wrap > h3 {
     font: 400 1.8em var(--corpo);
     margin: 3rem 0;
 }
