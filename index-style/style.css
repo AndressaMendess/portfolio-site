@@ -210,6 +210,7 @@ header .header-text h3 {
 .faq-sec {
     width: 100%;
     height: auto;
+    display: flex;
     position: relative;
     margin: 2rem auto;
     padding: 5rem 4rem;
