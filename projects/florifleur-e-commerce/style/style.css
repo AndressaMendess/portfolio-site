@@ -57,23 +57,26 @@ body {
 /* ---------- Starts header ---------- */
 header {
     background: var(--cinza) url(../media/mockup-header.jpg) no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
     height: 760px;
-    border-radius: 20px;
 }
 
 header .text-wrapper {
-    height: 300px;
-    gap: 2rem;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3rem;
 }
 
 header .text-wrapper h1 {
-    font: 900 3em var(--corpo);
+    font: 900 4em var(--corpo);
     color: #fff;
 }
 
 header .text-wrapper h3 {
-    font: 200 2em var(--corpo);
+    font: 200 3em var(--corpo);
     color: #fff;
 }
 nav {
