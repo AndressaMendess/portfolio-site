@@ -56,10 +56,22 @@ body {
 
 /* ---------- Starts header ---------- */
 header {
-    background-image: url(media/mockup-header.jpg);
+    background-image: url(../media/mockup-header.jpg);
     height: 760px;
 }
 
+header .text-wrapper {
+    height: 300px;
+    gap: 2rem;
+}
+
+header .text-wrapper h1 {
+    font: 900 3em var(--corpo);
+}
+
+header .text-wrapper h3 {
+    font: 200 2em var(--corpo);
+}
 nav {
     height: 80px;
     display: flex;
