@@ -55,6 +55,11 @@ body {
 }
 
 /* ---------- Starts header ---------- */
+header {
+    background-image: url(media/mockup-header.jpg);
+    max-height: 760px;
+}
+
 nav {
     height: 80px;
     display: flex;
