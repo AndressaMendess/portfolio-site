@@ -166,10 +166,10 @@ section p {
 }
 
 .project-description .info {
+    display: flex;
     margin: 2rem 0;
 }
 
-.project-description .info .info-title,
 .project-description .info .info-desc {
     width: 50%;
 }
