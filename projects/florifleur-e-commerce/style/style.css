@@ -63,11 +63,12 @@ header {
 }
 
 header .text-wrapper {
+    max-width: 700px;
     min-height: 500px;
+    margin: 0 3rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 3rem;
 }
 
 header .text-wrapper h1 {
@@ -223,16 +224,45 @@ section p {
 
 /* ---------- Starts footer ---------- */
 footer {
+    min-height: 350px;
+    padding: 2.5rem;
+    background-color: var(--background);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    color: #000;
-    margin-bottom: 1rem;
-    padding: .2rem;
+    gap: 3rem;
+    border: 5px solid var(--cinza);
+    border-radius: 15px;
 }
 
-footer h1 {
-    font: 900 20vw var(--corpo);
-    letter-spacing: -10px;
-    transition: .5s all;
+footer h2 {
+    font: 900 2.2em var(--corpo);
+}
+
+footer p {
+    font: 400 1.3em var(--corpo);
+    margin-bottom: .5rem;
+    color: #fff;
+}
+
+footer a {
+    font: 600 1.3em var(--corpo);
+    color: #fff;
+}
+
+footer ul {
+    display: flex;
+    gap: 5rem;
+}
+
+footer ul li {
+    padding: 1rem;
+}
+
+footer ul li a {
+    font-weight: 400;
 }
 /* ---------- Finishes footer ---------- */
 
@@ -313,6 +343,14 @@ header #nav.active #burguer-icon {
 header #nav.active #burguer-icon::after {
     transform: rotate(90deg);
     top: -12px;
+}
+
+header .text-wrapper h1 {
+    font-weight: 3em;
+}
+
+header .text-wrapper h3 {
+    font-weight: 2em;
 }
 /* ---------- Finishes header ---------- */
 
