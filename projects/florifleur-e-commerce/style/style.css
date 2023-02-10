@@ -64,7 +64,7 @@ header {
 }
 
 header .text-wrapper {
-    max-width: 700px;
+    max-width: 750px;
     min-height: 500px;
     margin: 0 3rem;
     display: flex;
@@ -166,7 +166,6 @@ section p {
 }
 
 .project-description .info {
-    display: flex;
     margin: 2rem 0;
 }
 
@@ -226,7 +225,7 @@ section p {
 /* ---------- Starts footer ---------- */
 footer {
     min-height: 350px;
-    padding: 2.5rem;
+    padding: 3rem;
     background-color: var(--background);
     color: #fff;
     display: flex;
