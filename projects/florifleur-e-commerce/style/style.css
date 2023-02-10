@@ -167,6 +167,7 @@ section p {
 
 .project-description .info {
     display: flex;
+    justify-content: space-evenly;
     margin: 2rem 0;
 }
 
@@ -329,13 +330,14 @@ nav #btn-mobile #burguer-icon {
     height: 2px;
     display: block;
     border-top: 2px solid;
-    color: #000;
+    color: #fff;
     transition: .1s all;
 }
 
 nav #btn-mobile #burguer-icon::after {
     width: 30px;
     height: 2px;
+    color: #000;
     display: block;
     content: '';
     background: currentColor;
@@ -353,11 +355,11 @@ header #nav.active #burguer-icon::after {
 }
 
 header .text-wrapper h1 {
-    font-weight: 3em;
+    font-size: 3em;
 }
 
 header .text-wrapper h3 {
-    font-weight: 2em;
+    font-size: 2em;
 }
 /* ---------- Finishes header ---------- */
 
@@ -378,4 +380,17 @@ header .text-wrapper h3 {
     width: 90%;
 }
 /* ---------- Finishes projects ---------- */
+
+/* ---------- Starts footer ---------- */
+footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer ul {
+    flex-direction: column;
+    gap: 0;
+}
+/* ---------- Finishes footer ---------- */
 }
