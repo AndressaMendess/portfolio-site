@@ -57,7 +57,7 @@ body {
 
 /* ---------- Starts header ---------- */
 header {
-    background: var(--cinza) url(../media/Mockup\ 1.png) no-repeat center center fixed;
+    background: var(--cinza) url(../media/rockgo-header.png) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     height: 760px;
@@ -330,7 +330,7 @@ nav #btn-mobile #burguer-icon {
     height: 2px;
     display: block;
     border-top: 2px solid;
-    color: #000;
+    color: #fff;
     transition: .1s all;
 }
 
