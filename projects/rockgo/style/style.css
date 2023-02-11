@@ -330,7 +330,7 @@ nav #btn-mobile #burguer-icon {
     height: 2px;
     display: block;
     border-top: 2px solid;
-    color: #fff;
+    color: #000;
     transition: .1s all;
 }
 
