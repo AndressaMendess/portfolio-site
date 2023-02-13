@@ -62,7 +62,7 @@ main {
 
 /* ---------- Starts header ---------- */
 header {
-    background: var(--cinza) url(../media/rockgo-header.png) no-repeat center center fixed;
+    background: var(--cinza) url(../media/Laptop_Mockup.png) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     height: 760px;
@@ -159,9 +159,10 @@ nav #btn-mobile {
 }
 
 .project-description p {
+    max-width: 700px;
     font: 300 1.3em var(--corpo);
     line-height: 1.8em;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 .project-description .info {
