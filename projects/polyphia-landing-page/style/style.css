@@ -332,6 +332,14 @@ header #nav.active #burguer-icon::after {
     transform: rotate(90deg);
     top: -12px;
 }
+
+header .text-wrapper h1 {
+    font-size: 3em;
+}
+
+header .text-wrapper h3 {
+    font-size: 2em;
+}
 /* ---------- Finishes header ---------- */
 
 .project-photo {
