@@ -108,6 +108,7 @@ nav {
     align-items: center;
     padding: 1rem;
     z-index: 1;
+    transition: .5s all;
 }
 
 nav:hover {

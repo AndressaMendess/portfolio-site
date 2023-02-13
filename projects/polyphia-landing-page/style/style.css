@@ -89,6 +89,7 @@ header .text-wrapper h3 {
 
 nav {
     height: 80px;
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
