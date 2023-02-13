@@ -110,6 +110,10 @@ nav {
     z-index: 1;
 }
 
+nav:hover {
+    background-color: var(--gray);
+}
+
 nav img {
     width: 95px;
     padding-left: 2rem;

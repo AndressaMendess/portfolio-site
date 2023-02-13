@@ -96,6 +96,7 @@ nav {
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #00000091;
+    z-index: 1;
     transition: .5s all;
 }
 
