@@ -101,6 +101,7 @@ header #square3 {
 
 nav {
     height: 80px;
+    border-radius: 10px 10px 0 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
