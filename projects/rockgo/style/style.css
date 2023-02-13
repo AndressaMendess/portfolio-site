@@ -81,6 +81,7 @@ header .text-wrapper h3 {
     font: 200 3em var(--corpo);
     color: #fff;
 }
+
 nav {
     height: 80px;
     display: flex;
@@ -151,11 +152,6 @@ nav #btn-mobile {
 .project-description a:hover, 
 .project-description i:hover {
     font-weight: 900;
-}
-
-section h1 {
-    font: 900 2.5em var(--corpo);
-    margin-bottom: 2rem;
 }
 
 section p {

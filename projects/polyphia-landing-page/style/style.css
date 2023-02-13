@@ -9,6 +9,7 @@
     --amarelo: #d1d401;
     --rosa: #bd0f4f;
     --cinza: #d9d9d9;
+    --background: #131313;
     --corpo: 'Be Vietnam Pro', sans-serif;
 }
 
@@ -60,6 +61,32 @@ main {
 }
 
 /* ---------- Starts header ---------- */
+header {
+    background: var(--cinza) url(../media/rockgo-header.png) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 760px;
+}
+
+header .text-wrapper {
+    max-width: 750px;
+    min-height: 500px;
+    margin: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+header .text-wrapper h1 {
+    font: 900 4em var(--corpo);
+    color: #fff;
+}
+
+header .text-wrapper h3 {
+    font: 200 3em var(--corpo);
+    color: #fff;
+}
+
 nav {
     height: 80px;
     display: flex;
@@ -69,6 +96,11 @@ nav {
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #00000091;
+    transition: .5s all;
+}
+
+nav:hover {
+    background-color: var(--cinza);
 }
 
 nav img {
@@ -126,19 +158,6 @@ nav #btn-mobile {
     font-weight: 900;
 }
 
-.project-description #date {
-    display: flex;
-    justify-content: space-between;
-    margin: 1.5rem 0;
-    padding: .5rem;
-    font-size: .8em;
-}
-
-.project-description h1 {
-    font: 900 2.5em var(--corpo);
-    margin-bottom: 2rem;
-}
-
 .project-description p {
     font: 300 1.3em var(--corpo);
     line-height: 1.8em;
@@ -147,12 +166,19 @@ nav #btn-mobile {
 
 .project-description .info {
     display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
 }
 
-.project-description .info .info-title,
+.project-description .info img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .project-description .info .info-desc {
     width: 50%;
-    padding: 1rem;
 }
 
 .info .info-title ul li {
@@ -191,16 +217,45 @@ nav #btn-mobile {
 
 /* ---------- Starts footer ---------- */
 footer {
+    min-height: 350px;
+    padding: 3rem;
+    background-color: var(--background);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    color: #000;
-    margin-bottom: 1rem;
-    padding: .2rem;
+    gap: 3rem;
+    border: 5px solid var(--cinza);
+    border-radius: 15px;
 }
 
-footer h1 {
-    font: 900 20vw var(--corpo);
-    letter-spacing: -10px;
-    transition: .5s all;
+footer h2 {
+    font: 900 2.2em var(--corpo);
+}
+
+footer p {
+    font: 400 1.3em var(--corpo);
+    margin-bottom: .5rem;
+    color: #fff;
+}
+
+footer a {
+    font: 600 1.3em var(--corpo);
+    color: #fff;
+}
+
+footer ul {
+    display: flex;
+    gap: 5rem;
+}
+
+footer ul li {
+    padding: 1rem;
+}
+
+footer ul li a {
+    font-weight: 400;
 }
 /* ---------- Finishes footer ---------- */
 
@@ -281,14 +336,21 @@ header #nav.active #burguer-icon::after {
 .project-photo {
     padding: 0;
 }
-    
+
 /* ---------- Starts footer ---------- */
 footer {
-    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
 }
 
-footer h1 {
-    letter-spacing: -5px;
+footer h2 {
+    font-size: 1.8em;
+}
+
+footer ul {
+    flex-direction: column;
+    gap: 0;
 }
 /* ---------- Finishes footer ---------- */
 }
