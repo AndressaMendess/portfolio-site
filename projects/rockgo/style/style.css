@@ -57,10 +57,10 @@ body {
 
 /* ---------- Starts header ---------- */
 header {
-    background: var(--cinza) url(../media/rockgo-header.png) no-repeat center center fixed;
-    background-size: cover;
     width: 100%;
     height: 760px;
+    background: var(--cinza) url(../media/rockgo-header.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 header .text-wrapper {
@@ -382,6 +382,10 @@ footer {
     flex-direction: column;
     text-align: center;
     padding: 2rem;
+}
+
+footer h2 {
+    font-size: 1.8em;
 }
 
 footer ul {

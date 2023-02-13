@@ -342,9 +342,23 @@ header .text-wrapper h3 {
 }
 /* ---------- Finishes header ---------- */
 
-.project-photo {
-    padding: 0;
+/* ---------- Starts projects ---------- */
+.project-description .info {
+    flex-direction: column;
 }
+
+.project-description .info img {
+    width: auto;
+}
+
+.project-description .info .info-desc {
+    width: 100%;
+}
+
+.project-photo img {
+    width: 90%;
+}
+/* ---------- Finishes projects ---------- */
 
 /* ---------- Starts footer ---------- */
 footer {

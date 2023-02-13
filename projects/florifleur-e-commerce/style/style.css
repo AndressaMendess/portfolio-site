@@ -388,6 +388,10 @@ footer {
     padding: 2rem;
 }
 
+footer h2 {
+    font-size: 1.8em;
+}
+
 footer ul {
     flex-direction: column;
     gap: 0;

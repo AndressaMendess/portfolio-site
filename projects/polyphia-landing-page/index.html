@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../media/favicon1.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <title>Polyphia Landing Page | Andressa Mendes</title>
 </head>
@@ -24,8 +25,8 @@
             </button>
         </nav>
         <div class="text-wrapper">
-            <h1>Polyphia landing-page</h1>
-            <h3>2022 - Desenvolvimento.</h3>
+            <h1 data-aos="fade-right">Polyphia landing-page</h1>
+            <h3 data-aos="fade-right">2022 - Desenvolvimento.</h3>
         </div>
     </header>
     <main>
@@ -33,9 +34,9 @@
             <a href="../../index.html"><i class="material-symbols-outlined">arrow_back</i>Voltar</a>
             <div class="info">
                 <img src="./media/project-one.png" alt="Polyphia Landing Page">
-                <div class="info-desc">
+                <div class="info-desc" data-aos="fade-right">
                     <ul>
-                        <li><strong>Duração</strong> <br> xx.xx.2022 <br> xx.xx.2022</li>
+                        <li><strong>Duração</strong> <br> 11.08.2022 <br> 12.09.2022</li>
                         <li><strong>Papel</strong> <br> UI Designer <br> Prototipagem <br> Desenvolvimento</li>
                         <li><strong>Linguagens utilizadas</strong> <br> HTML <br> CSS <br> JavaScript</li>
                         <li><a href="https://polyphia-is-an-instrumental-progressive-rock-band.vercel.app/" target="_blank" 
@@ -43,10 +44,10 @@
                     </ul>
                 </div>
             </div>
-            <p>Desenvolvimento de uma Landing Page Responsiva sobre a banda instrumental de rock progressivo Polyphia. <br> 
+            <p data-aos="fade-right">Desenvolvimento de uma Landing Page Responsiva sobre a banda instrumental de rock progressivo Polyphia. <br> 
             Possui algumas informações sobre a banda tais como: quem são, estilo musical, influências, discografia, membros da banda, redes sociais e plataformas de streaming.</p>
         </section>
-        <section class="project-photo">
+        <section class="project-photo" data-aos="fade-right">
             <img src="media/polyphia-is-an-instrumental-progressive-rock-band.vercel.app_.png" alt="polyphia website">
         </section>
     </main>
@@ -67,5 +68,9 @@
     </footer>
 
     <script src="../../menu-script/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 </body>
 </html>
