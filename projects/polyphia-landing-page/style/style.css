@@ -74,7 +74,7 @@ header .text-wrapper {
     margin: 0 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 header .text-wrapper h1 {
@@ -133,6 +133,7 @@ nav #btn-mobile {
 
 header > a {
     width: 90px;
+    margin: 3rem;
     color: #fff;
     display: flex;
     align-items: center;
