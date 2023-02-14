@@ -68,6 +68,23 @@ header {
     height: 760px;
 }
 
+header > a {
+    width: 90px;
+    margin: 3rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: .1s all;
+}
+
+header > a i {
+    padding-right: .5rem;
+}
+
+header > a:hover {
+    font-weight: 900;
+}
+
 header .text-wrapper {
     max-width: 750px;
     min-height: 500px;
@@ -131,23 +148,6 @@ nav #btn-mobile {
     display: none;
 }
 
-header > a {
-    width: 90px;
-    margin: 3rem;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    transition: .1s all;
-}
-
-header > a i {
-    padding-right: .5rem;
-}
-
-header > a:hover, 
-header > i:hover {
-    font-weight: 900;
-}
 /* ---------- Finishes header ---------- */
 
 /* ---------- Starts sections ---------- */

@@ -63,13 +63,30 @@ header {
     height: 760px;
 }
 
+header > a {
+    width: 90px;
+    margin: 3rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: .1s all;
+}
+
+header > a i {
+    padding-right: .5rem;
+}
+
+header > a:hover {
+    font-weight: 900;
+}
+
 header .text-wrapper {
     max-width: 750px;
     min-height: 500px;
     margin: 0 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 header .text-wrapper h1 {
@@ -134,23 +151,6 @@ nav #btn-mobile {
     display: flex;
     flex-direction: column;
     align-content: center;
-}
-
-.project-description > a {
-    width: 90px;
-    display: flex;
-    align-items: center;
-    color: #000;
-    transition: .1s all;
-}
-
-.project-description a i {
-    padding-right: .5rem;
-}
-
-.project-description a:hover, 
-.project-description i:hover {
-    font-weight: 900;
 }
 
 section h1 {
