@@ -130,6 +130,23 @@ nav a:hover {
 nav #btn-mobile {
     display: none;
 }
+
+header > a {
+    width: 90px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: .1s all;
+}
+
+header > a i {
+    padding-right: .5rem;
+}
+
+header > a:hover, 
+header > i:hover {
+    font-weight: 900;
+}
 /* ---------- Finishes header ---------- */
 
 /* ---------- Starts sections ---------- */
@@ -141,23 +158,6 @@ nav #btn-mobile {
     display: flex;
     flex-direction: column;
     align-content: center;
-}
-
-.project-description > a {
-    color: #000;
-    display: flex;
-    width: 90px;
-    align-items: center;
-    transition: .1s all;
-}
-
-.project-description a i {
-    padding-right: .5rem;
-}
-
-.project-description a:hover, 
-.project-description i:hover {
-    font-weight: 900;
 }
 
 .project-description p {
