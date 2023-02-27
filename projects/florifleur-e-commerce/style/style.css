@@ -223,7 +223,7 @@ section p {
     width: 100%;
     height: auto;
     margin: 2rem auto;
-    padding: 1.5rem;
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -385,6 +385,14 @@ header .text-wrapper h3 {
 
 .project-photo img {
     width: 90%;
+}
+
+.project-info {
+    flex-direction: column;
+}
+
+.project-info p {
+    margin: 3rem 0;
 }
 /* ---------- Finishes projects ---------- */
 
