@@ -242,8 +242,13 @@ section p {
     margin: 3rem 1rem;
 }
 
-.next-project a h1 {
+.next-project a {
     font: 700 5em var(--corpo);
+    color: #000;
+}
+
+.next-project a i {
+    font-size: 5em;
 }
 /* ---------- Finishes project-info ---------- */
 
