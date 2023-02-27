@@ -127,3 +127,24 @@ FIRST OPTION SECTION PROJECTS CSS
 }
 /* ---------- Finishes sec-projects ---------- */
 }
+
+QUOTES HTML
+<div class="quote">
+    <h1>Hipótese</h1>
+    <p>"Acreditamos que com um fluxo de compras melhorado e facilitado, ajudará usuários de 
+    diversas idades a concluirem a compra de maneira eficaz."</p>
+</div>
+
+
+QUOTES CSS
+.quote {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.quote p {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 1rem;
+}
