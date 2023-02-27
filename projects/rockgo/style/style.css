@@ -86,7 +86,7 @@ header .text-wrapper {
     margin: 0 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 header .text-wrapper h1 {
@@ -197,6 +197,18 @@ section p {
 .info .info-desc ul li a:hover {
     font-weight: 900;
 }
+
+.project-description .quote {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.project-description .quote p {
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    padding: 1rem;
+}
 /* ---------- Finishes project-description ---------- */
 
 /* ---------- Starts project-photo ---------- */
@@ -213,17 +225,6 @@ section p {
     margin: 1rem 0;
 }
 
-.project-photo .quote {
-    max-width: 500px;
-    margin: 2rem auto;
-    padding: 1rem;
-}
-
-.project-photo .quote p {
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 1rem;
-}
 /* ---------- Finishes project-photo ---------- */
 
 /* ---------- Starts footer ---------- */
