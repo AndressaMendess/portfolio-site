@@ -230,6 +230,20 @@ section p {
 }
 /* ---------- Finishes project-photo ---------- */
 
+/* ---------- Starts project-info ---------- */
+.project-info {
+    width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    display: flex;
+}
+
+.project-info h2 {
+    font: 3em 200 var(--corpo);
+}
+/* ---------- Finishes project-info ---------- */
+
 /* ---------- Starts footer ---------- */
 footer {
     min-height: 350px;
