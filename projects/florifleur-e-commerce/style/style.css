@@ -225,7 +225,7 @@ section p {
     margin: 2rem auto;
     padding: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .project-info h2 {

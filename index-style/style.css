@@ -85,7 +85,7 @@ header #square1 {
 header #square2 {
     top: 5rem;
     right: 8rem;
-    background-color: var(--rosa);
+    background-color: var(--laranja);
     border-radius: 50%;
     filter: blur(80px);
     transform: rotate(170deg);
