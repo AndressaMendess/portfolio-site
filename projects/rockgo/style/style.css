@@ -199,14 +199,19 @@ section p {
 }
 
 .project-description .quote {
-    max-width: 500px;
+    max-width: 700px;
     margin: 2rem auto;
     padding: 1rem;
+    text-align: center;
+}
+
+.project-description .quote h1 {
+    font: 700 2em var(--corpo);
 }
 
 .project-description .quote p {
-    border: 1px solid #cfcfcf;
-    border-radius: 5px;
+    background-color: #cfcfcf;
+    border-radius: 10px;
     padding: 1rem;
 }
 /* ---------- Finishes project-description ---------- */
@@ -224,7 +229,6 @@ section p {
     border-radius: 5px;
     margin: 1rem 0;
 }
-
 /* ---------- Finishes project-photo ---------- */
 
 /* ---------- Starts footer ---------- */
