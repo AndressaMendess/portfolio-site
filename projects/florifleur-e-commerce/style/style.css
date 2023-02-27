@@ -239,7 +239,7 @@ section p {
 .next-project {
     width: 100%;
     height: auto;
-    margin: 3rem 1rem;
+    margin: 3rem;
 }
 
 .next-project a {
@@ -249,8 +249,12 @@ section p {
     align-items: center;
 }
 
+.next-project a h1 {
+    margin: 0;
+}
+
 .next-project a i {
-    font-size: 1.5em;
+    font-size: 3em;
 }
 /* ---------- Finishes project-info ---------- */
 
