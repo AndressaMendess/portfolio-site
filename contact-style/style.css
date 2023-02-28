@@ -134,48 +134,43 @@ nav #btn-mobile {
     opacity: .5;
 }
 
-.contacts {
+.contact-wrapper {
     max-width: 1200px;
     min-height: 500px;
     margin: 5rem auto;
     padding: 1rem;
-}
-
-.contacts h3 {
-    font: 300 1.8em var(--corpo);
-    line-height: 1.8em;
-    margin-bottom: 3rem;
-}
-
-article {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.contacts div {
-    margin: 5rem 0;
+.contact-wrapper h3 {
+    font: 900 2.8em var(--corpo);
+}
+
+.contact-wrapper div {
     padding: .8rem;
 }
 
-.contacts div p {
+.contact-wrapper div p {
     font: 600 1.5em var(--corpo);
 }
 
-.contacts div ul {
+.contact-wrapper div ul {
     margin: 1.5rem 0;
 }
 
-.contacts div ul li {
+.contact-wrapper div ul li {
     padding: .8rem 0;
 }
 
-.contacts div a {
+.contact-wrapper div a {
     color: #fff;
     font: 200 1.4em var(--corpo);
     transition: .2s all;
 }
 
-.contacts div a:hover {
+.contact-wrapper div a:hover {
     padding-bottom: .2rem;
     border-bottom: 1px solid #fff;
 }
@@ -274,11 +269,11 @@ header #nav.active #burguer-icon::after {
 }
 /* ---------- Finishes header ---------- */
 
-article {
+.contact-wrapper {
     flex-direction: column;
 }
 
-.contacts div {
+.contact-wrapper div {
     margin: 1rem 0;
 }
 
