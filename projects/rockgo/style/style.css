@@ -202,6 +202,10 @@ section p {
     padding: 1.5rem;
 }
 
+.project-info h1 {
+    font: 800 2em var(--corpo);
+}
+
 .project-info .quote {
     max-width: 700px;
     margin: 2rem auto;
@@ -209,18 +213,10 @@ section p {
     text-align: center;
 }
 
-.project-info .quote h1 {
-    font: 700 2em var(--corpo);
-}
-
 .project-info .quote p {
     background-color: #cfcfcf;
     border-radius: 10px;
     padding: 1rem;
-}
-
-.project-info h1 {
-    font: 800 3em var(--corpo);
 }
 /* ---------- Finishes project-info ---------- */
 
