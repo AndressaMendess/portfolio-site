@@ -234,7 +234,7 @@ section p {
     gap: .8rem;
 }
 
-.project__photos--one img {
+#project__photos--one img {
     width: 50%;
     border-radius: 10px;
 }
