@@ -216,6 +216,16 @@ section p {
 }
 /* ---------- Finishes project-description ---------- */
 
+/* ---------- Starts project-info ---------- */
+.project-info {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+/* ---------- Finishes project-info ---------- */
+
 /* ---------- Starts project-photo ---------- */
 .project-photo {
     width: 100%;
