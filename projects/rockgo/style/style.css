@@ -259,6 +259,11 @@ footer p {
 footer a {
     font: 600 1.3em var(--corpo);
     color: #fff;
+    transition: .5s all;
+}
+
+footer a:hover {
+    font-weight: 800;
 }
 
 footer ul {

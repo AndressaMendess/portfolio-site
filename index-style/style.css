@@ -325,6 +325,7 @@ footer p {
 footer a {
     font: 600 1.3em var(--corpo);
     color: #000;
+    transition: .5s all;
 }
 
 footer a:hover {
