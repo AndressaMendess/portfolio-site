@@ -226,7 +226,7 @@ section p {
 
 /* ---------- Starts project-photo ---------- */
 .project-photos {
-    max-width: 1200px;
+    max-width: 1100px;
     height: auto;
     margin: auto;
     display: flex;
@@ -234,7 +234,7 @@ section p {
     gap: .8rem;
 }
 
-.project-photos img {
+.project-photos > img {
     width: 50%;
     border-radius: 10px;
 }
