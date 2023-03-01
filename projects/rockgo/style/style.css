@@ -151,7 +151,7 @@ section p {
     margin: 2.5rem 0;
 }
 
-.project-description {
+.project__description {
     max-width: 1200px;
     height: auto;
     margin: 2rem auto;
@@ -161,63 +161,63 @@ section p {
     align-content: center;
 }
 
-.project-description .info {
+.project__description .description__info {
     margin: 2rem 0;
     display: flex;
     justify-content: space-evenly;
 }
 
-.project-description .info img {
+.project__description .description__info img {
     width: 40%;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.project-description .info .info-desc {
+.project__description .description__info .info__desc {
     width: 50%;
 }
 
-.info .info-desc ul li {
+.description__info .info__desc ul li {
     padding: 1rem 0;
     border-bottom: solid 1px #000;
 }
 
-.info .info-desc ul li a {
+.description__info .info__desc ul li a {
     color: #000;
     font-weight: 600;
     transition: .2s all;
 }
 
-.info .info-desc ul li a:hover {
+.description__info .info__desc ul li a:hover {
     font-weight: 900;
 }
 /* ---------- Finishes project-description ---------- */
 
 /* ---------- Starts project-info ---------- */
-.project-info {
+.project__info {
     max-width: 1200px;
     height: auto;
     margin: 2rem auto;
     padding: 1.5rem;
 }
 
-.project-info article {
+.project__info article {
     margin: 10rem 0;
 }
 
-.project-info h1 {
+.project__info h1 {
     font: 800 2em var(--corpo);
 }
 
-.project-info .quote {
+.project__info .project__quote {
     max-width: 700px;
     margin: 2rem auto;
     padding: 1rem;
     text-align: center;
 }
 
-.project-info .quote p {
+.project__info .project__quote p {
     background-color: #cfcfcf;
     border-radius: 10px;
     padding: 1rem;
@@ -225,7 +225,7 @@ section p {
 /* ---------- Finishes project-info ---------- */
 
 /* ---------- Starts project-photo ---------- */
-.project-photos {
+.project__photos {
     max-width: 1100px;
     height: auto;
     margin: auto;
@@ -234,8 +234,13 @@ section p {
     gap: .8rem;
 }
 
-.project-photos > img {
+.project__photos--one img {
     width: 50%;
+    border-radius: 10px;
+}
+
+.project__photos img {
+    width: 100%;
     border-radius: 10px;
 }
 /* ---------- Finishes project-photo ---------- */
@@ -292,7 +297,7 @@ footer ul li a {
 
 @media screen and (max-width: 1200px) {
 /* ---------- Starts projects ---------- */
-.project-photos {
+.project__photos {
     flex-wrap: wrap;
 }
 /* ---------- Finishes projects ---------- */
@@ -379,19 +384,19 @@ header .text-wrapper h3 {
 /* ---------- Finishes header ---------- */
 
 /* ---------- Starts projects ---------- */
-.project-description .info {
+.project__description .description__info {
     flex-direction: column;
 }
 
-.project-description .info img {
+.project__description .description__info img {
     width: auto;
 }
 
-.project-description .info .info-desc {
+.project__description .description__info .info__desc {
     width: 100%;
 }
 
-.project-photos img {
+.project__photos img {
     width: 90%;
 }
 /* ---------- Finishes projects ---------- */
