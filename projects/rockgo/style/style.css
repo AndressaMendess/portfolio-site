@@ -230,7 +230,7 @@ section p {
     height: auto;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     gap: .8rem;
 }
 
@@ -389,6 +389,10 @@ header .text-wrapper h3 {
 
 .project-description .info .info-desc {
     width: 100%;
+}
+
+.project-photos {
+    flex-wrap: wrap;
 }
 
 .project-photos img {
