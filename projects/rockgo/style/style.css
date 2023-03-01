@@ -230,7 +230,7 @@ section p {
     height: auto;
     margin: auto;
     display: flex;
-    align-items: center;
+    justify-content: center;
     gap: .8rem;
 }
 
@@ -292,8 +292,8 @@ footer ul li a {
 
 @media screen and (max-width: 1200px) {
 /* ---------- Starts projects ---------- */
-.project-photo img {
-    max-width: 900px;
+.project-photos {
+    flex-wrap: wrap;
 }
 /* ---------- Finishes projects ---------- */
 }
@@ -389,10 +389,6 @@ header .text-wrapper h3 {
 
 .project-description .info .info-desc {
     width: 100%;
-}
-
-.project-photos {
-    flex-wrap: wrap;
 }
 
 .project-photos img {
