@@ -234,15 +234,15 @@ section p {
     gap: .8rem;
 }
 
-#project__photos--one img {
-    width: 50%;
-    border-radius: 10px;
-}
-
 .project__photos img {
     width: 100%;
     border-radius: 10px;
 }
+
+#project__photos--one img {
+    width: 50%;
+}
+
 /* ---------- Finishes project-photo ---------- */
 
 /* ---------- Starts footer ---------- */
@@ -396,8 +396,8 @@ header .text-wrapper h3 {
     width: 100%;
 }
 
-.project__photos img {
-    width: 90%;
+#project__photos--one img {
+    width: 100%;
 }
 /* ---------- Finishes projects ---------- */
 
