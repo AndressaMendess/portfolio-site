@@ -218,6 +218,10 @@ section p {
     border-radius: 10px;
     padding: 1rem;
 }
+
+.project-info h1 {
+    font: 800 3em var(--corpo);
+}
 /* ---------- Finishes project-info ---------- */
 
 /* ---------- Starts project-photo ---------- */
