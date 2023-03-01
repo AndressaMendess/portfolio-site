@@ -144,6 +144,13 @@ nav #btn-mobile {
 /* ---------- Finishes header ---------- */
 
 /* ---------- Starts project-description ---------- */
+section p {
+    max-width: 700px;
+    font: 300 1.3em var(--corpo);
+    line-height: 1.8em;
+    margin: 3rem 0;
+}
+
 .project-description {
     max-width: 1200px;
     height: auto;
@@ -152,13 +159,6 @@ nav #btn-mobile {
     display: flex;
     flex-direction: column;
     align-content: center;
-}
-
-section p {
-    max-width: 700px;
-    font: 300 1.3em var(--corpo);
-    line-height: 1.8em;
-    margin: 3rem 0;
 }
 
 .project-description .info {
@@ -178,11 +178,6 @@ section p {
     width: 50%;
 }
 
-.info .info-title ul li {
-    padding: 2.2rem 0;
-    font-weight: 800;
-}
-
 .info .info-desc ul li {
     padding: 1rem 0;
     border-bottom: solid 1px #000;
@@ -197,31 +192,30 @@ section p {
 .info .info-desc ul li a:hover {
     font-weight: 900;
 }
+/* ---------- Finishes project-description ---------- */
 
-.project-description .quote {
+/* ---------- Starts project-info ---------- */
+.project-info {
+    max-width: 1200px;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1.5rem;
+}
+
+.project-info .quote {
     max-width: 700px;
     margin: 2rem auto;
     padding: 1rem;
     text-align: center;
 }
 
-.project-description .quote h1 {
+.project-info .quote h1 {
     font: 700 2em var(--corpo);
 }
 
-.project-description .quote p {
+.project-info .quote p {
     background-color: #cfcfcf;
     border-radius: 10px;
-    padding: 1rem;
-}
-/* ---------- Finishes project-description ---------- */
-
-/* ---------- Starts project-info ---------- */
-.project-info {
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    margin: 2rem auto;
     padding: 1rem;
 }
 /* ---------- Finishes project-info ---------- */
