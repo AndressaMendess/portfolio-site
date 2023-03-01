@@ -148,7 +148,7 @@ section p {
     max-width: 700px;
     font: 300 1.3em var(--corpo);
     line-height: 1.8em;
-    margin: 3rem 0;
+    margin: 2.5rem 0;
 }
 
 .project-description {
@@ -162,9 +162,9 @@ section p {
 }
 
 .project-description .info {
+    margin: 2rem 0;
     display: flex;
     justify-content: space-evenly;
-    margin: 2rem 0;
 }
 
 .project-description .info img {
@@ -200,6 +200,10 @@ section p {
     height: auto;
     margin: 2rem auto;
     padding: 1.5rem;
+}
+
+.project-info article {
+    margin: 5rem 0;
 }
 
 .project-info h1 {
