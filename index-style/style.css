@@ -70,7 +70,7 @@ header {
 header .shadow {
     position: absolute;
     border-radius: 50%;
-    filter: blur(100px);
+    filter: blur(80px);
 }
 
 header .shadow--one {
@@ -82,11 +82,11 @@ header .shadow--one {
 }
 
 header .shadow--two {
-    width: 400px;
-    height: 400px;
-    top: 5rem;
-    right: 8rem;
-    background-color: #d65500;
+    width: 450px;
+    height: 450px;
+    top: 10rem;
+    left: 12rem;
+    background-color: var(--laranja);
 }
 
 nav {
