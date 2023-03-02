@@ -243,6 +243,10 @@ section p {
     width: 50%;
 }
 
+.photo--extended img {
+    width: 100vw;
+}
+
 /*.photo--completed img {
     width: 100%;
 }*/
