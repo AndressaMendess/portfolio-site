@@ -400,7 +400,7 @@ header .text-wrapper h3 {
     width: 100%;
 }
 
-#project__photos--one img {
+.photo--half img {
     width: 100%;
 }
 /* ---------- Finishes projects ---------- */
