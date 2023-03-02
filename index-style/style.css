@@ -67,36 +67,26 @@ header {
     border-radius: 15px;
 }
 
-header #square1, header #square2, header #square3 {
-    width: 650px;
-    height: 450px;
+header .shadow {
     position: absolute;
-}
-
-header #square1 {
-    top: 0;
-    left: 40rem;
-    background-color: #94b500;
     border-radius: 50%;
-    filter: blur(80px);
-    transform: rotate(80deg);
+    filter: blur(100px);
 }
 
-header #square2 {
+header .shadow--one {
+    width: 550px;
+    height: 550px;
+    top: 0;
+    left: -8rem;
+    background-color: var(--roxo);
+}
+
+header .shadow--two {
+    width: 400px;
+    height: 400px;
     top: 5rem;
     right: 8rem;
-    background-color: var(--laranja);
-    border-radius: 50%;
-    filter: blur(80px);
-    transform: rotate(170deg);
-}
-
-header #square3 {
-    top: 15rem;
-    right: 20rem;
-    background-color: #6336C5;
-    border-radius: 50%;
-    filter: blur(80px);
+    background-color: #d65500;
 }
 
 nav {
@@ -356,19 +346,6 @@ footer ul li a {
 
 @media screen and (max-width: 768px) {
 /* ---------- Starts header ---------- */
-header #square1 {
-    left: 12rem;
-}
-
-header #square2 {
-    left: 20rem;
-}
-
-header #square3 {
-    top: 12rem;
-    left: 8rem;
-}
-
 header nav #menu {
     display: block;
     width: 100%;
