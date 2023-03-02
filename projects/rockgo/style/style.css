@@ -235,12 +235,16 @@ section p {
 }
 
 .project__photos img {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
 }
 
-#project__photos--one img {
+img.photo--half {
     width: 50%;
+}
+
+img.photo--completed {
+    width: 100%;
 }
 
 /* ---------- Finishes project-photo ---------- */
