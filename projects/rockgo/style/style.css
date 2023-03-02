@@ -239,11 +239,11 @@ section p {
     border-radius: 10px;
 }
 
-img.photo-half {
+.photo--half img {
     width: 50%;
 }
 
-img.photo-completed {
+.photo--completed img {
     width: 100%;
 }
 /* ---------- Finishes project-photo ---------- */
