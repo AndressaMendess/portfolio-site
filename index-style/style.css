@@ -82,10 +82,10 @@ header .shadow--one {
 }
 
 header .shadow--two {
-    width: 450px;
+    width: 550px;
     height: 450px;
-    top: 10rem;
-    left: 12rem;
+    top: 12rem;
+    left: 15rem;
     background-color: var(--laranja);
 }
 
