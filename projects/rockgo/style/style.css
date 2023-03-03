@@ -226,11 +226,13 @@ section p {
 .project__card {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .project__card h3 {
-    font: 800 1em var(--corpo);
+    font: 800 1.5em var(--corpo);
     color: var(--roxo);
+    margin-bottom: 1rem;
 }
 /* ---------- Finishes project-info ---------- */
 
@@ -257,9 +259,9 @@ section p {
     width: 100vw;
 }
 
-/*.photo--completed img {
-    width: 100%;
-}*/
+.photo--card img {
+    width: 80%;
+}
 
 /* ---------- Finishes project-photo ---------- */
 
