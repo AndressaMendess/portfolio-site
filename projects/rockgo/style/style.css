@@ -222,6 +222,16 @@ section p {
     border-radius: 10px;
     padding: 1rem;
 }
+
+.project__card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project__card h3 {
+    font: 800 1em var(--corpo);
+    color: var(--roxo);
+}
 /* ---------- Finishes project-info ---------- */
 
 /* ---------- Starts project-photo ---------- */
