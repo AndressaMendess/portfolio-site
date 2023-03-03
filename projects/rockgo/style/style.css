@@ -416,6 +416,10 @@ header .text-wrapper h3 {
     width: 100%;
 }
 
+.project__card {
+    flex-direction: column;
+}
+
 .photo--half img {
     width: 100%;
 }
