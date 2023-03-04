@@ -421,6 +421,8 @@ header .text-wrapper h3 {
 
 .next__project {
     flex-direction: column;
+    align-items: center;
+    gap: 6rem;
 }
 /* ---------- Finishes projects ---------- */
 
