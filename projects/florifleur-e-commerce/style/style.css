@@ -249,6 +249,7 @@ section p {
     color: #000;
     display: flex;
     align-items: center;
+    transition: .3s all;
 }
 
 .next-project a i {
