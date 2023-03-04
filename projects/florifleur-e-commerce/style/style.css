@@ -245,12 +245,18 @@ section p {
 }
 
 .next-project a {
-    font: 900 1.5em var(--corpo);
+    font: 400 4.5em var(--corpo);
     color: #000;
+    display: flex;
+    align-items: center;
 }
 
 .next-project a i {
-    font-size: 3em;
+    font-size: 1em;
+}
+
+.next-project:hover {
+    font-weight: 900;
 }
 /* ---------- Finishes project-info ---------- */
 
