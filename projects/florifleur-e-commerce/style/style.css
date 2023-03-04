@@ -237,9 +237,9 @@ section p {
 }
 
 .next-project {
-    width: auto;
+    max-width: 1150px;
     height: auto;
-    margin: 5rem;
+    margin: 8rem auto;
     display: flex;
     justify-content: flex-end;
 }
@@ -255,7 +255,7 @@ section p {
     font-size: 1em;
 }
 
-.next-project:hover {
+.next-project a:hover {
     font-weight: 900;
 }
 /* ---------- Finishes project-info ---------- */
