@@ -202,6 +202,10 @@ section p {
     padding: 1.5rem;
 }
 
+.project__info ul {
+    list-style-type: disc;
+}
+
 .project__info article {
     margin: 10rem 0;
 }
