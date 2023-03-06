@@ -206,7 +206,9 @@ section p {
     max-width: 700px;
     font: 300 1.3em var(--corpo);
     line-height: 1.8em;
-    margin: 2.5rem 0;
+}
+
+.project__info ul li {
     list-style-type: disc;
 }
 
