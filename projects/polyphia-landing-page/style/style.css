@@ -213,8 +213,32 @@ nav #btn-mobile {
 }
 
 .project__photo img {
-    width: 90%;
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.next__project {
+    max-width: 1150px;
+    height: auto;
+    margin: 8rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next__project a {
+    font: 400 4.5em var(--corpo);
+    color: #000;
+    display: flex;
+    align-items: center;
+    transition: .3s all;
+}
+
+.next__project a i {
+    font-size: 1em;
+}
+
+.next__project a:hover {
+    font-weight: 900;
 }
 /* ---------- Finishes sections ---------- */
 
@@ -362,8 +386,10 @@ header .text-wrapper h3 {
     width: 100%;
 }
 
-.project__photo img {
-    width: 90%;
+.next__project {
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
 }
 /* ---------- Finishes projects ---------- */
 

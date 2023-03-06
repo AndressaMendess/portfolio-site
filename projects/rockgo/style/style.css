@@ -273,6 +273,29 @@ section p {
     width: 80%;
 }
 
+.next__project {
+    max-width: 1150px;
+    height: auto;
+    margin: 8rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next__project a {
+    font: 400 4.5em var(--corpo);
+    color: #000;
+    display: flex;
+    align-items: center;
+    transition: .3s all;
+}
+
+.next__project a i {
+    font-size: 1em;
+}
+
+.next__project a:hover {
+    font-weight: 900;
+}
 /* ---------- Finishes project-photo ---------- */
 
 /* ---------- Starts footer ---------- */
@@ -432,6 +455,12 @@ header .text-wrapper h3 {
 
 .photo--half img {
     width: 100%;
+}
+
+.next__project {
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
 }
 /* ---------- Finishes projects ---------- */
 
