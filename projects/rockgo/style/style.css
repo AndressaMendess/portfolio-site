@@ -453,6 +453,10 @@ header .text-wrapper h3 {
     flex-direction: column;
 }
 
+.photo--card img {
+    width: 100%;
+}
+
 .photo--half img {
     width: 100%;
 }
