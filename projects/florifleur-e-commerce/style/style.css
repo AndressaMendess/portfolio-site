@@ -420,6 +420,10 @@ header .text-wrapper h3 {
     align-items: center;
     gap: 6rem;
 }
+
+.next__project a {
+    font-size: 3.5em;
+}
 /* ---------- Finishes projects ---------- */
 
 /* ---------- Starts footer ---------- */
