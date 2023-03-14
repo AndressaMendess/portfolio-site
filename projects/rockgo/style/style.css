@@ -233,6 +233,21 @@ section p {
     padding: 1rem;
 }
 
+.project__info article a.project__slide {
+    max-width: 100px;
+    background: var(--roxo);
+    font: 300 2em var(--corpo);
+    color: var(--cinza);
+}
+
+.project__info article a.project__slide:hover {
+    border: solid 1px var(--roxo);
+    background: transparent;
+    color: var(--roxo);
+}
+
+.project__info 
+
 .project__card {
     display: flex;
     justify-content: space-around;
