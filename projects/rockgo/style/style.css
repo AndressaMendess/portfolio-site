@@ -235,10 +235,11 @@ section p {
 
 .project__info article a.project__slide {
     max-width: 100px;
-    padding: 1.5rem;
+    padding: 1.3rem 2rem;
     background: var(--roxo);
-    font: 300 2em var(--corpo);
+    font: 300 1.5em var(--corpo);
     color: var(--cinza);
+    transition: .3s all;
 }
 
 .project__info article a.project__slide:hover {
