@@ -86,7 +86,7 @@ header .shadow--two {
     height: 450px;
     top: 12rem;
     left: 15rem;
-    background-color: var(--laranja);
+    background-color: #73b500;
 }
 
 nav {
@@ -313,7 +313,7 @@ footer p {
 }
 
 footer a {
-    font: 600 1.3em var(--corpo);
+    font: 400 1.3em var(--corpo);
     color: #000;
     transition: .5s all;
 }
@@ -330,10 +330,6 @@ footer ul {
 footer ul li {
     padding: 1rem;
 }
-
-footer ul li a {
-    font-weight: 400;
-}
 /* ---------- Finishes footer ---------- */
 
 
@@ -341,6 +337,7 @@ footer ul li a {
 @media screen and (max-width: 1200px) {
 .projects-sec .projects-container {
     width: 100%;
+    height: auto;
 }
 }
 
@@ -446,12 +443,5 @@ footer ul {
     gap: 0;
 }
 /* ---------- Finishes footer ---------- */
-}
-
-@media screen and (max-width: 480px) {
-.projects-sec .projects-container {
-    width: 100%;
-    height: auto;
-}
 }
 
