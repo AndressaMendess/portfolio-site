@@ -102,10 +102,6 @@ nav {
     transition: .5s all;
 }
 
-nav:hover {
-    background-color: var(--gray);
-}
-
 nav img {
     width: 95px;
     padding-left: 2rem;
