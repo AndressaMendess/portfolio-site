@@ -235,6 +235,7 @@ section p {
 
 .project__info article a.project__slide {
     max-width: 100px;
+    padding: 1.5rem;
     background: var(--roxo);
     font: 300 2em var(--corpo);
     color: var(--cinza);
