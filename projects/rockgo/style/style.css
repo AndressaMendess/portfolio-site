@@ -234,23 +234,16 @@ section p {
 }
 
 .project__info article a.project__slide {
-    max-width: 100px;
-    padding: 1.3rem 2rem;
-    background: var(--roxo);
     font: 300 1.5em var(--corpo);
-    color: var(--cinza);
+    color: #000;
     transition: .3s all;
 }
 
 .project__info article a.project__slide:hover {
-    border: solid 1px var(--roxo);
-    background: transparent;
-    color: var(--roxo);
+    font-weight: 800;
 }
 
-.project__info 
-
-.project__card {
+.project__info .project__card {
     display: flex;
     justify-content: space-around;
     align-items: center;
