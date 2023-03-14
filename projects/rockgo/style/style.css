@@ -233,13 +233,13 @@ section p {
     padding: 1rem;
 }
 
-.project__info article a.project__slide {
-    font: 300 1.5em var(--corpo);
+.project__info a.project__slide {
+    font: 300 1.3em var(--corpo);
     color: #000;
     transition: .3s all;
 }
 
-.project__info article a.project__slide:hover {
+.project__info a.project__slide:hover {
     font-weight: 800;
 }
 
