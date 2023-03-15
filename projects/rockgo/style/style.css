@@ -167,10 +167,9 @@ section p {
     justify-content: space-evenly;
 }
 
-.project__description .description__info img {
-    width: 40%;
+.project__description .description__info .description__info--photo {
+    max-width: 40%;
     height: auto;
-    object-fit: cover;
     border-radius: 10px;
 }
 
