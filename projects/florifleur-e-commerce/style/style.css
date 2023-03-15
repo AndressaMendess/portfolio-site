@@ -327,6 +327,7 @@ header nav #menu {
     transition: .6s all;
     visibility: hidden;
     overflow-y: hidden;
+    z-index: 1;
 }
     
 nav img {
