@@ -318,14 +318,6 @@ footer ul li a {
 /* ---------- Finishes footer ---------- */
 
 
-@media screen and (max-width: 1200px) {
-/* ---------- Starts projects ---------- */
-.project__photo img {
-    width: 90%;
-}
-/* ---------- Finishes projects ---------- */
-}
-
 @media screen and (max-width: 768px) {
 /* ---------- Starts header ---------- */
 header nav #menu {
@@ -426,6 +418,14 @@ header .text-wrapper h3 {
 
 .project__info p {
     margin: 3rem 0;
+}
+
+.project__photos {
+    flex-wrap: wrap;
+}
+
+.photo--half {
+    width: 100%;
 }
 
 .next__project {

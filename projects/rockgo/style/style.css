@@ -358,14 +358,6 @@ footer ul li a {
 /* ---------- Finishes footer ---------- */
 
 
-@media screen and (max-width: 1200px) {
-/* ---------- Starts projects ---------- */
-.project__photos {
-    flex-wrap: wrap;
-}
-/* ---------- Finishes projects ---------- */
-}
-
 @media screen and (max-width: 768px) {
 /* ---------- Starts header ---------- */
 header nav #menu {
@@ -466,6 +458,10 @@ header .text-wrapper h3 {
 
 .photo--card img {
     width: 100%;
+}
+
+.project__photos {
+    flex-wrap: wrap;
 }
 
 .photo--half img {
