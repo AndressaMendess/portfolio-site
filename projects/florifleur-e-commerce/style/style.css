@@ -209,7 +209,8 @@ section p {
 .project__photo .project__photos {
     max-width: 1100px;
     height: auto;
-    margin: 2.8rem auto;
+    margin: 2.5rem auto;
+    padding: 1rem;
     display: flex;
     justify-content: space-evenly;
     gap: .8rem;
@@ -424,7 +425,7 @@ header .text-wrapper h3 {
     flex-wrap: wrap;
 }
 
-.photo--half {
+.photo--half img {
     width: 100%;
 }
 
