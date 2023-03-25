@@ -216,6 +216,11 @@ section p {
     gap: .8rem;
 }
 
+video {
+    max-width: 1100px;
+    border-radius: 10px;
+}
+
 .project__photo img {
     width: 100%;
     border-radius: 10px;
