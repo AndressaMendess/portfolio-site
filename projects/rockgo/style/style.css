@@ -260,10 +260,16 @@ section p {
 .project__photos {
     max-width: 1100px;
     height: auto;
-    margin: 2.8rem auto;
+    margin: 2.5rem auto;
     display: flex;
     justify-content: center;
     gap: .8rem;
+}
+
+video {
+    max-width: 1100px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .project__photos img {
