@@ -269,6 +269,11 @@ header #nav.active #burguer-icon::after {
     flex-direction: column;
 }
 
+.contact-wrapper h3 {
+    font-size: 2em;
+    padding-bottom: 1.2rem;
+}
+
 .contact-wrapper div {
     margin: 1rem 0;
 }
