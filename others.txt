@@ -148,3 +148,119 @@ QUOTES CSS
     border-radius: 5px;
     padding: 1rem;
 }
+
+ACCORDEON
+
+<article class="skills">
+    <h1>Como faço o trabalho?</h1>
+    <h3>UX/UI Design</h3>
+    <div class="faq">
+        <div class="question">
+            <h3>User Research</h3>
+            <span class="icon"></span>
+        </div>
+        <div class="answer">
+            <p>Antes de criar o design de produtos, é necessário entender e empatizar com o 
+            usuário, utilizando diferentes métodos de pesquisas e entrevistas.</p>
+        </div>
+    </div>
+
+    <h3>Desenvolvimento Front-End</h3>
+    <ul>
+        <li><i class="material-symbols-outlined">arrow_forward</i>HTML 5</li>
+        <li><i class="material-symbols-outlined">arrow_forward</i>CSS 3</li>
+        <li><i class="material-symbols-outlined">arrow_forward</i>JavaScript</li>
+        <li><i class="material-symbols-outlined">arrow_forward</i>React JS</li>
+        <li><i class="material-symbols-outlined">arrow_forward</i>Sass</li>
+        <li><i class="material-symbols-outlined">arrow_forward</i>Git</li>
+        <li><i class="material-symbols-outlined">arrow_forward</i>Github</li>
+        <li><i class="material-symbols-outlined">arrow_forward</i>Adobe Xd, Figma</li>
+        <li><i class="material-symbols-outlined">arrow_forward</i>Adobe Photoshop, Adobe Illustrator</li>
+    </ul>
+</article>
+
+ACCORDEON CSS STYLE
+
+/* ---------- Starts skills article ---------- */
+.skills {
+    max-width: 1200px;
+    height: auto;
+    margin: 2rem;
+}
+
+.skills h1 {
+    font: 200 2.5em var(--corpo);
+    margin-bottom: 1rem;
+    color: #aaa;
+}
+
+.skills > h3 {
+    font: 400 1.8em var(--corpo);
+    margin: 3rem 0;
+}
+
+.skills .faq {
+    max-width: 700px;
+    margin: 3rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+
+.skills .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills .question h3 {
+    font: 100 2em var(--corpo);
+}
+
+.skills .faq .question .icon {
+    width: 10px;
+    height: 2px;
+    display: block;
+    border-top: 2px solid #fff;
+    transition: .2s all;
+    transform: rotate(90deg);
+}
+
+.skills .faq .question .icon::before {
+    width: 10px;
+    height: 2px;
+    display: block;
+    content: '';
+    border-top: 2px solid #fff;
+    position: relative;
+    left: -1px;
+    top: -3px;            
+    transform: rotate(90deg);
+    transition: .2s all;
+}
+
+.skills .faq .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s all;
+}
+
+.skills .faq .answer p {
+    font-weight: 400;
+    line-height: 1.8em;
+    padding: 1.5rem 0;
+}
+
+.skills .faq.active .answer {
+    max-height: 200px;
+}
+
+.skills .faq.active .question .icon {
+    transform: rotate(315deg);
+}
+
+.skills ul li {
+    padding: 2rem;
+    font: 100 1.8em var(--corpo);
+}
+/* ---------- Finishes skills article ---------- */
