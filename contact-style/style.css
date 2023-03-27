@@ -106,32 +106,30 @@ nav #btn-mobile {
 /* ---------- Finishes header ---------- */
 
 /* ---------- Starts section ---------- */
-.square1 {
-    width: 900px;
-    height: 560px;
+.shadow {
     position: absolute;
-    top: 1rem;
-    right: 0;
     z-index: -2;
-    background: var(--laranja);
     border-radius: 50%;
-    transform: rotate(35deg);
-    filter: blur(140px);
     opacity: .5;
+    filter: blur(140px);
 }
 
-.square2 {
+.shadow--one {
+    width: 700px;
+    height: 560px;
+    top: 1rem;
+    right: 3;
+    background: var(--laranja);
+    transform: rotate(35deg);
+}
+
+.shadow--two {
     width: 410px;
     height: 300px;
-    position: absolute;
     top: 20rem;
-    right: -5rem;
-    z-index: -2;
+    right: -2rem;
     background: var(--verde);
-    border-radius: 50%;
     transform: rotate(80deg);
-    filter: blur(100px);
-    opacity: .5;
 }
 
 .contact-wrapper {
@@ -153,7 +151,7 @@ nav #btn-mobile {
 }
 
 .contact-wrapper div p {
-    font: 600 1.5em var(--corpo);
+    font: 800 1.5em var(--corpo);
 }
 
 .contact-wrapper div ul {
@@ -167,12 +165,11 @@ nav #btn-mobile {
 .contact-wrapper div a {
     color: #fff;
     font: 200 1.4em var(--corpo);
-    transition: .2s all;
+    transition: .3s all;
 }
 
 .contact-wrapper div a:hover {
-    padding-bottom: .2rem;
-    border-bottom: 1px solid #fff;
+    font-weight: 600;
 }
 /* ---------- Finishes section ---------- */
 
@@ -187,7 +184,7 @@ footer {
 footer h1 {
     font: 900 20vw var(--corpo);
     letter-spacing: -10px;
-    transition: .5s all;
+    transition: .3s all;
 }
 
 footer h1:hover {
