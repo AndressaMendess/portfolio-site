@@ -118,18 +118,17 @@ nav #btn-mobile {
     width: 700px;
     height: 560px;
     top: 1rem;
-    right: 3;
-    background: var(--laranja);
-    transform: rotate(35deg);
+    right: 10rem;
+    background: var(--roxo);
 }
 
 .shadow--two {
     width: 410px;
-    height: 300px;
-    top: 20rem;
-    right: -2rem;
-    background: var(--verde);
-    transform: rotate(80deg);
+    height: 370px;
+    top: 10rem;
+    right: 1rem;
+    background: var(--amarelo);
+    filter: blur(98px);
 }
 
 .contact-wrapper {
