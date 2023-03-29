@@ -162,8 +162,6 @@ header .header-text h3 {
 .project {
     height: auto;
     margin: auto;
-    display: flex;
-    flex-direction: column;
 }
 
 .projects-sec a {
@@ -205,7 +203,7 @@ legend {
 }
 
 .faq-sec article {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
