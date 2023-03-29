@@ -440,6 +440,15 @@ header .header-text h3 {
     flex-direction: column;
 }
 
+.faq-sec article.skill-wrap {
+    align-items: flex-start;
+}
+
+.faq-sec article .lang-wrap ul {
+    flex-direction: column;
+    gap: 5rem;
+}
+
 /* ---------- Starts footer ---------- */
 footer {
     flex-direction: column;
