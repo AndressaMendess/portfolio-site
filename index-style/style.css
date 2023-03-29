@@ -168,22 +168,14 @@ header .header-text h3 {
 
 .projects-sec a {
     color: #fff;
-    font: 400 1.5em var(--corpo);
+    font: 300 1.5em var(--corpo);
     margin: 3rem auto;
-}
-
-.project .projects-text {
-    margin-bottom: 1.3rem;
 }
     
 .projects-container {
     width: 550px;
     height: 400px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin: 1.3rem auto;
     background-color: transparent;
     border-radius: 10px;
     transition: .2s all;
@@ -197,18 +189,30 @@ header .header-text h3 {
     width: 100%;
     border-radius: 10px;
 }
+
+legend {
+    font: 100 .8em var(--corpo);
+}
 /* ---------- Finishes projects ---------- */
 
 /* ---------- Starts faq ---------- */
 .faq-sec {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
     margin: 2rem auto;
     padding: 5rem 4rem;
     border-top: 1px solid #fff;
+}
+
+.faq-sec article {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-sec article.skill-wrap {
+    align-items: center;
 }
 
 .faq-sec h1 {
@@ -280,6 +284,18 @@ header .header-text h3 {
 
 .faq-sec .faq.active .question .icon {
     transform: rotate(315deg);
+}
+
+.faq-sec article .lang-wrap ul {
+    display: flex;
+}
+
+.faq-sec article .lang-wrap ul li {
+    padding: 0 1rem;
+}
+
+.faq-sec article ul {
+    font: 100 2em var(--corpo);
 }
 /* ---------- Finishes faq ---------- */
 
@@ -419,8 +435,11 @@ header .header-text h3 {
 /* ---------- Finishes header ---------- */
 
 .faq-sec {
-    flex-direction: column;
     padding: 5rem 1rem;
+}
+
+.faq-sec article {
+    flex-direction: column;
 }
 
 /* ---------- Starts footer ---------- */
