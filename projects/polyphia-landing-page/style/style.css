@@ -29,12 +29,12 @@
 }
 
 *::-webkit-scrollbar-track {
-    background-color: var(--cinza);
+    background-color: var(--background);
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #000;
-    border-right: 1px solid var(--cinza);
+    background-color: #fff;
+    border-right: 1px solid var(--background);
 }
 
 ::selection {
@@ -47,9 +47,9 @@ html {
 }
 
 body {
-    background-color: var(--cinza);
+    background-color: var(--background);
     font-family: var(--corpo);
-    color: #000;
+    color: #fff;
     line-height: 1.8em;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -191,11 +191,11 @@ nav #btn-mobile {
 
 .info .info__desc ul li {
     padding: 1rem 0;
-    border-bottom: solid 1px #000;
+    border-bottom: solid 1px #fff;
 }
 
 .info .info__desc ul li a {
-    color: #000;
+    color: #fff;
     font-weight: 600;
     transition: .2s all;
 }
@@ -227,7 +227,7 @@ nav #btn-mobile {
 
 .next__project a {
     font: 400 4.5em var(--corpo);
-    color: #000;
+    color: #fff;
     display: flex;
     align-items: center;
     transition: .3s all;
@@ -246,14 +246,14 @@ nav #btn-mobile {
 footer {
     min-height: 350px;
     padding: 3rem;
-    background-color: var(--background);
-    color: #fff;
+    background-color: var(--cinza);
+    color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 3rem;
-    border: 5px solid var(--cinza);
+    border: 5px solid var(--background);
     border-radius: 15px;
 }
 
@@ -264,12 +264,12 @@ footer h2 {
 footer p {
     font: 400 1.3em var(--corpo);
     margin-bottom: .5rem;
-    color: #fff;
+    color: #000;
 }
 
 footer a {
     font: 600 1.3em var(--corpo);
-    color: #fff;
+    color: #000;
     transition: .5s all;
 }
 
