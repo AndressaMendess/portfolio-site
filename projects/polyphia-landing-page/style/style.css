@@ -33,8 +33,9 @@
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #fff;
-    border-right: 1px solid var(--background);
+    background-color: var(--cinza);
+    border-right: 2px solid var(--background);
+    border-radius: 200px;
 }
 
 ::selection {
@@ -62,7 +63,7 @@ main {
 
 /* ---------- Starts header ---------- */
 header {
-    background: var(--cinza) url(../media/mockup-header.png) no-repeat center center fixed;
+    background: var(--background) url(../media/mockup-header.png) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     height: 760px;
