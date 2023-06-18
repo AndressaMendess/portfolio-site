@@ -22,6 +22,7 @@
     text-decoration: none;
     scrollbar-width: 10px;
     scrollbar-color: #000;
+    cursor: url(../media/cursor.svg), default;
 }
 
 *::-webkit-scrollbar {
@@ -110,6 +111,10 @@ nav {
     padding: 1rem;
     border-bottom: 1px solid #00000091;
     transition: .5s all;
+}
+
+nav > a {
+    height: 60px;
 }
 
 nav:hover {
