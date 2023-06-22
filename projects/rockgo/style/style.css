@@ -256,7 +256,7 @@ section p {
 }
 
 .project__card h3 {
-    font: 800 1.5em var(--corpo);
+    font: 800 2em var(--corpo);
     color: var(--roxo);
     margin-bottom: 1rem;
 }
