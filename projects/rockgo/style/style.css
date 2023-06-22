@@ -22,7 +22,6 @@
     text-decoration: none;
     scrollbar-width: 10px;
     scrollbar-color: #000;
-    cursor: url(../media/cursor.svg), default;
 }
 
 *::-webkit-scrollbar {
@@ -272,12 +271,6 @@ section p {
     gap: .8rem;
 }
 
-video {
-    max-width: 1100px;
-    width: 100%;
-    border-radius: 10px;
-}
-
 .project__photos img {
     width: 100%;
     border-radius: 10px;
@@ -287,12 +280,18 @@ video {
     width: 50%;
 }
 
+#cards img {
+    width: 40%;
+}
+
 .photo--extended img {
     width: 100vw;
 }
 
-.photo--card img {
-    width: 80%;
+.photo--card video {
+    max-width: 1100px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .next__project {
@@ -476,7 +475,7 @@ header .text-wrapper h3 {
     flex-wrap: wrap;
 }
 
-.photo--half img {
+.photo--half img, #cards img {
     width: 100%;
 }
 
