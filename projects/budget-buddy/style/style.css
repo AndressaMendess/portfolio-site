@@ -10,6 +10,8 @@
     --rosa: #bd0f4f;
     --cinza: #d9d9d9;
     --background: #131313;
+    --azul-projeto: #A7C6DA;
+    --verde-projeto: #ABCC10;
     --corpo: 'Be Vietnam Pro', sans-serif;
 }
 
@@ -198,6 +200,63 @@ section p {
     font-weight: 900;
 }
 /* ---------- Finishes project-description ---------- */
+
+/* ---------- Starts project-info ---------- */
+.project__info {
+    max-width: 1200px;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: var(--cinza);
+}
+
+.background--invert {
+    background-color: var(--background);
+}
+
+.project__info .project__quote {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.project__info .project__quote p {
+    background-color: #cfcfcf;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.project__info h1 {
+    font: 800 2em var(--corpo);
+}
+
+.project__info article {
+    margin: 10rem 0;
+}
+/* ---------- Finishes project-info ---------- */
+
+/* ---------- starts project-photos ---------- */
+.project__photos {
+    max-width: 1100px;
+    height: auto;
+    margin: 2.5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.project__photos img {
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.photo--extended img {
+    width: 100vw;
+}
+/* ---------- Finishes project-photos ---------- */
 
 
 /* ---------- Starts next-project ---------- */
