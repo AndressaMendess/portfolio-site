@@ -293,7 +293,9 @@ section p {
     width: 100%;
     border-radius: 10px;
 }
+/* ---------- Finishes project-photo ---------- */
 
+/* ---------- Starts next-projects ---------- */
 .next__project {
     max-width: 1150px;
     height: auto;
@@ -317,7 +319,7 @@ section p {
 .next__project a:hover {
     font-weight: 900;
 }
-/* ---------- Finishes project-photo ---------- */
+/* ---------- Finishes next-projects ---------- */
 
 /* ---------- Starts footer ---------- */
 footer {
