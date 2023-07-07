@@ -42,7 +42,7 @@
 
 ::selection {
     color: #000;
-    background-color: var(--roxo);
+    background-color: var(--verde-projeto);
 }
 
 html {
@@ -203,15 +203,11 @@ section p {
 
 /* ---------- Starts project-info ---------- */
 .project__info {
+    width: 100%;
     max-width: 1200px;
     height: auto;
     margin: 2rem auto;
     padding: 1.5rem;
-    background-color: var(--cinza);
-}
-
-.background--invert {
-    background-color: var(--background);
 }
 
 .project__info .project__quote {
@@ -232,7 +228,7 @@ section p {
 }
 
 .project__info article {
-    margin: 10rem 0;
+    margin: 10rem auto;
 }
 /* ---------- Finishes project-info ---------- */
 
@@ -248,13 +244,26 @@ section p {
 }
 
 .project__photos img {
-    margin: auto;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
 }
 
 .photo--extended img {
     width: 100vw;
+    align-self: center;
+}
+
+.project__card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.project__card h3 {
+    font: 800 2em var(--corpo);
+    color: var(--verde-projeto);
+    margin-bottom: 1rem;
 }
 /* ---------- Finishes project-photos ---------- */
 
