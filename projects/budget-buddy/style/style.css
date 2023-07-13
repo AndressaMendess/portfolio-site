@@ -12,7 +12,7 @@
     --background: #131313;
     --azul-projeto: #A7C6DA;
     --verde-projeto: #ABCC10;
-    --corpo: 'Be Vietnam Pro', sans-serif;
+    --corpo: 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif;
 }
 
 * {
@@ -275,9 +275,7 @@ section p {
 }
 
 .photo--card video {
-    max-width: 1100px;
-    width: 100%;
-    border-radius: 10px;
+    width: 90%;
 }
 /* ---------- Finishes project-photos ---------- */
 
@@ -459,7 +457,6 @@ header .text-wrapper h3 {
 
 .photo--card video {
     margin: 0 auto;
-    width: 90%;
 }
 
 .project__photos {
