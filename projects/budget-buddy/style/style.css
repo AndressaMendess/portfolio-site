@@ -248,7 +248,7 @@ section p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5rem;
+    gap: 1rem;
 }
 
 .project__photos img {
@@ -272,6 +272,13 @@ section p {
     font: 800 2em var(--corpo);
     color: var(--verde-projeto);
     margin-bottom: 1rem;
+}
+
+.bg--blue {
+    background-color: var(--azul-projeto);
+    color: #000;
+    border-radius: 5rem;
+    padding: 5rem 0;
 }
 
 .photo--card video {
