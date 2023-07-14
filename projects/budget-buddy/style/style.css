@@ -62,7 +62,7 @@ body {
 header {
     width: 100%;
     height: 760px;
-    background: var(--cinza) url(../media/mockup-header-3\ 1.png) no-repeat center center fixed;
+    background: var(--cinza) url(../media/mockup-header.png) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -215,6 +215,7 @@ section p {
     top: -5rem;
     background-color: var(--background);
     color: #fff;
+    border-radius: 0 0 5rem 5rem;
 }
 
 .project__info .project__quote {
@@ -289,7 +290,7 @@ section p {
 
 /* ---------- Starts next-project ---------- */
 .next__project {
-    background-color: var(--background);
+    background-color: var(--cinza);
     height: 450px;
     display: flex;
     justify-content: space-between;
@@ -299,7 +300,7 @@ section p {
 
 .next__project a {
     font: 400 4.5em var(--corpo);
-    color: #fff;
+    color: #000;
     display: flex;
     align-items: center;
     transition: .3s all;
@@ -319,13 +320,14 @@ section p {
 footer {
     min-height: 350px;
     padding: 3rem;
-    background-color: var(--cinza);
-    color: #000;
+    background-color: var(--background);
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 3rem;
+    border: 5px solid var(--cinza);
     border-radius: 15px;
 }
 
@@ -336,12 +338,12 @@ footer h2 {
 footer p {
     font: 400 1.3em var(--corpo);
     margin-bottom: .5rem;
-    color: #000;
+    color: #fff;
 }
 
 footer a {
     font: 600 1.3em var(--corpo);
-    color: #000;
+    color: #fff;
     transition: .5s all;
 }
 
@@ -428,10 +430,12 @@ nav #btn-mobile #burguer-icon::after {
 }
 
 header #nav.active #burguer-icon {
+    color: #000;
     transform: rotate(45deg);
 }
 
 header #nav.active #burguer-icon::after {
+    color: #000;
     transform: rotate(90deg);
     top: -12px;
 }
@@ -464,10 +468,6 @@ header .text-wrapper h3 {
 
 .photo--card video {
     margin: 0 auto;
-}
-
-.project__photos {
-    flex-wrap: wrap;
 }
 
 .next__project {
