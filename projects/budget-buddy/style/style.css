@@ -62,7 +62,7 @@ body {
 header {
     width: 100%;
     height: 760px;
-    background: var(--cinza) url(../media/mockup-header.png) no-repeat center center fixed;
+    background: var(--cinza) url(../media/header.png) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -254,7 +254,7 @@ section p {
 
 .project__photos img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .photo--extended img {
@@ -272,14 +272,16 @@ section p {
 .project__card h3 {
     font: 800 2em var(--corpo);
     color: var(--verde-projeto);
-    margin-bottom: 1rem;
 }
 
 .bg--blue {
     background-color: var(--azul-projeto);
     color: #000;
     border-radius: 5rem;
-    padding: 5rem 0;
+}
+
+.bg--blue .desc {
+    padding-top: 5rem;
 }
 
 .photo--card video {
