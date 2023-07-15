@@ -69,6 +69,15 @@ nav {
     padding: 1rem;
     height: 80px;
     border-bottom: 1px solid #ffffff6e;
+    transition: .1s;
+}
+
+nav:hover {
+    background-color: var(--background);
+}
+
+nav > a {
+    height: 60px;
 }
 
 nav img {
@@ -85,16 +94,18 @@ nav ul li {
 }
 
 nav ul li a {
+    font-weight: 500;
     color: #fff;
 }
 
 nav ul li #auto {
+    font-weight: 900;
     color: var(--roxo);
 }
 
 nav a:hover {
     transition: .1s all;
-    color: var(--roxo);
+    font-weight: 900;
 }
 
 nav #btn-mobile {
@@ -103,9 +114,33 @@ nav #btn-mobile {
 /* ---------- Finishes header ---------- */
 
 /* ---------- Starts about-section ---------- */
+.shadow {
+    position: absolute;
+    z-index: -2;
+    border-radius: 50%;
+    opacity: .5;
+    filter: blur(140px);
+}
+
+.shadow--one {
+    width: 700px;
+    height: 560px;
+    top: 1rem;
+    right: 10rem;
+    background: var(--laranja);
+}
+
+.shadow--two {
+    width: 410px;
+    height: 370px;
+    top: 10rem;
+    right: 1rem;
+    background: var(--verde);
+    filter: blur(98px);
+}
+
 section {
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -134,21 +169,10 @@ section > article {
 .about-article p {
     text-indent: 2em;
 }
-
-.about-article ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 .2rem;
-}
-
-.about-article ul li {
-    padding: 1rem 2rem;
-}
 /* ---------- Finishes about-section ---------- */
 
 /* ---------- Starts image-section ---------- */
 .image-article {
-    width: auto;
     padding: 2rem;
 }
 
@@ -156,7 +180,7 @@ section > article {
     width: 430px;
     height: 430px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 2rem;
 }
 /* ---------- Finishes image-section ---------- */
 
@@ -260,17 +284,8 @@ section {
     flex-direction: column-reverse;
 }
 
-article {
-    min-height: 550px;
-}
-
 .about-article, .image-article {
     width: 100%;
-}
-
-.image-article {
-    display: flex;
-    align-items: center;
 }
 
 .image-article img {

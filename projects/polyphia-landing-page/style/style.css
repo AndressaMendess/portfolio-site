@@ -119,6 +119,10 @@ nav {
     transition: .5s all;
 }
 
+nav > a {
+    height: 60px;
+}
+
 nav:hover {
     background-color: var(--cinza);
 }
@@ -141,8 +145,8 @@ nav ul li a {
 }
 
 nav a:hover {
+    font-weight: 900;
     transition: .1s all;
-    color: var(--roxo);
 }
 
 nav #btn-mobile {
@@ -206,7 +210,7 @@ nav #btn-mobile {
 }
 
 .project__photo {
-    max-width: 1200px;
+    max-width: 1100px;
     height: auto;
     margin: 2rem auto;
     padding: 1.5rem;
@@ -215,7 +219,7 @@ nav #btn-mobile {
 
 .project__photo img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 2rem;
 }
 
 .next__project {
@@ -245,7 +249,6 @@ nav #btn-mobile {
 
 /* ---------- Starts footer ---------- */
 footer {
-    min-height: 350px;
     padding: 3rem;
     background-color: var(--cinza);
     color: #000;
@@ -255,7 +258,7 @@ footer {
     text-align: center;
     gap: 3rem;
     border: 5px solid var(--background);
-    border-radius: 15px;
+    border-radius: 2rem;
 }
 
 footer h2 {
@@ -263,7 +266,7 @@ footer h2 {
 }
 
 footer p {
-    font: 400 1.3em var(--corpo);
+    font: 400 1.2em var(--corpo);
     margin-bottom: .5rem;
     color: #000;
 }

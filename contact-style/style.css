@@ -73,6 +73,15 @@ nav {
     align-content: center;
     align-items: center;
     border-bottom: 1px solid #ffffff6e;
+    transition: .1s;
+}
+
+nav:hover {
+    background-color: var(--background);
+}
+
+nav > a {
+    height: 60px;;
 }
 
 nav img {
@@ -89,16 +98,18 @@ nav ul li {
 }
 
 nav ul li a {
+    font-weight: 500;
     color: #fff;
 }
 
 nav ul li #auto {
+    font-weight: 900;
     color: var(--roxo);
 }
 
 nav a:hover {
+    font-weight: 900;
     transition: .1s all;
-    color: var(--roxo);
 }
 
 nav #btn-mobile {
